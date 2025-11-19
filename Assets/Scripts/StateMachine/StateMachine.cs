@@ -38,6 +38,8 @@ public class StateMachine<TContext> where TContext : MonoBehaviour
     {
         HasTransitionedThisFrame = false;
         CurrentState?.Update();
+        
+        Debug.Log(CurrentState);
     }
 
     public void FixedUpdate()

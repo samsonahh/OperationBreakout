@@ -6,6 +6,22 @@ using UnityEngine.SceneManagement;
 public static class Utils
 {
     /// <summary>
+    /// Helper method to set the alpha value of a Unity UI Image component.
+    /// Needed because Image.color.a = alpha does not work.
+    /// </summary>
+    /// <param name="image"></param>
+    /// <param name="alpha"></param>
+    public static void SetImageAlpha(this UnityEngine.UI.Image image, float alpha)
+    {
+        if (image == null)
+            return;
+
+        Color color = image.color;
+        color.a = alpha;
+        image.color = color;
+    }
+    
+    /// <summary>
     /// Returns a new Vector3 with one component (x, y, or z) set to a new value.
     /// Vector3.x = x does not work as expected in Unity, so this is a workaround.
     /// </summary>

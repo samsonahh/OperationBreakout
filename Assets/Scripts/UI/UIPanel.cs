@@ -1,0 +1,46 @@
+﻿using UnityEngine;
+
+/// <summary>
+/// Base class for UIManager persistent panels.
+/// </summary>
+public abstract class UIPanel : MonoBehaviour
+{
+    private protected UIManager _uiManager;
+
+    /// <summary>
+    /// Since UIPanels are disabled on start, this method is used to initialize (fake Awake()) the panel with the UIManager reference.
+    /// </summary>
+    /// <param name="manager"></param>
+    public void Init(UIManager manager)
+    {
+        _uiManager = manager;
+        Initialize();
+    }
+
+    /// <summary>
+    /// Replacement for Unity's Awake method due to the panels being disabled on start.
+    /// </summary>
+    private protected abstract void Initialize();
+
+    /// <summary>
+    /// Easy method to enable this UI.
+    /// </summary>
+    public void Show()
+    {
+        gameObject.SetActive(true);
+    }
+
+    /// <summary>
+    /// Forces the panel to hide without any additional logic.
+    /// </summary>
+    public void Hide()
+    {
+        gameObject.SetActive(false);
+    }
+
+    /// <summary>
+    /// For when the player wants to close the UI panel.
+    /// This is different from Hide() because it also handles any additional cleanup or state changes needed when closing the UI.
+    /// </summary>
+    public abstract void CloseUI();
+}
