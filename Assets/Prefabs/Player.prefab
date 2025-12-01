@@ -97,6 +97,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7703180490550214444}
   - component: {fileID: 4896975681692699786}
+  - component: {fileID: 2960971974486710558}
   - component: {fileID: 4485569237662594560}
   - component: {fileID: 3295796907847790002}
   m_Layer: 0
@@ -137,6 +138,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <RigidBody>k__BackingField: {fileID: 3295796907847790002}
   <Collider>k__BackingField: {fileID: 4485569237662594560}
+  <MoveState>k__BackingField:
+    _speed: 5
+--- !u!114 &2960971974486710558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4920614001628456924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39c48cb549926f4392541af36f7beb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <MaxHealth>k__BackingField: 10
+  <CurrentHealth>k__BackingField: 0
 --- !u!58 &4485569237662594560
 CircleCollider2D:
   m_ObjectHideFlags: 0
