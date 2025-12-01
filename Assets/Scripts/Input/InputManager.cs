@@ -8,6 +8,7 @@ public class InputManager : Singleton<InputManager>, IPlayerActions, IUIActions
     public PlayerInputActions InputActions { get; private set; }
 
     public event Action Interact = delegate { };
+    public event Action UnPause = delegate { };
     
     public Vector2 MoveDirection => InputActions.Player.Move.ReadValue<Vector2>();
     
@@ -52,8 +53,6 @@ public class InputManager : Singleton<InputManager>, IPlayerActions, IUIActions
         InputActions.Enable();
         InputActions.Player.Enable();
         InputActions.UI.Disable();
-
-        LockCursor(true);
     }
 
     /// <summary>
@@ -68,8 +67,6 @@ public class InputManager : Singleton<InputManager>, IPlayerActions, IUIActions
         InputActions.Enable();
         InputActions.Player.Disable();
         InputActions.UI.Enable();
-
-        LockCursor(false);
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -91,6 +88,12 @@ public class InputManager : Singleton<InputManager>, IPlayerActions, IUIActions
     {
         if (context.performed)
             Interact.Invoke();
+    }
+    
+    public void OnPause(InputAction.CallbackContext context)
+    {
+        if(GameManager.Instance.CurrentGameState == GameState.Gameplay)
+            GameManager.Instance.ChangeGameState(GameState.Paused);
     }
 
     public void OnSubmit(InputAction.CallbackContext context)
@@ -126,6 +129,12 @@ public class InputManager : Singleton<InputManager>, IPlayerActions, IUIActions
     public void OnScrollWheel(InputAction.CallbackContext context)
     {
         
+    }
+    
+    public void OnUnPause(InputAction.CallbackContext context)
+    {
+        if(context.performed)
+            UnPause.Invoke();
     }
     
     public void LockCursor(bool locked)

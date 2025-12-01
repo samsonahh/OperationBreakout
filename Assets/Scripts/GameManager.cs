@@ -1,6 +1,8 @@
 using Eflatun.SceneReference;
 using NaughtyAttributes;
 using System;
+using System.Collections.Generic;
+using AYellowpaper.SerializedCollections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Cysharp.Threading.Tasks;
@@ -15,6 +17,10 @@ public enum GameState
 
 public class GameManager : Singleton<GameManager>
 {
+    [Header("Editor Bootstrap States")] 
+    [SerializeField, SerializedDictionary("Scene", "State")]
+    private SerializedDictionary<SceneReference, GameState> _startingStates = new();
+    
     [field: SerializeField, ReadOnly] public GameState CurrentGameState { get; private set; }
 
     /// <summary>
@@ -35,6 +41,16 @@ public class GameManager : Singleton<GameManager>
     private protected override void Awake()
     {
         base.Awake();
+        
+#if UNITY_EDITOR
+        Dictionary<string, GameState> startingStates = new();
+        foreach (var kvp in _startingStates)
+            startingStates.Add(kvp.Key.Name, kvp.Value);
+        if(startingStates.TryGetValue(GetCurrentScene().Name, out GameState targetState))
+            ChangeGameState(targetState, true);
+        else
+            ChangeGameState(GameState.Gameplay, true);
+#endif
     }
 
     /// <summary>
@@ -71,7 +87,6 @@ public class GameManager : Singleton<GameManager>
             case GameState.Loading:
                 Time.timeScale = 0f;
                 InputManager.Instance.DisableAllActions();
-                InputManager.Instance.LockCursor(false);
                 break;
             case GameState.Gameplay:
                 Time.timeScale = 1f;
@@ -97,6 +112,8 @@ public class GameManager : Singleton<GameManager>
         ChangeGameState(GameState.Loading);
         await UIManager.Instance.LoadingPanel.FadeIn();
 
+        await SceneManager.LoadSceneAsync(scene.Name, LoadSceneMode.Single);
+        
         ChangeGameState(afterState);
 
         await UIManager.Instance.LoadingPanel.FadeOut();

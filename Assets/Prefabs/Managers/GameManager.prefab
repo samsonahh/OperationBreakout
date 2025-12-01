@@ -44,6 +44,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 673090ba3fd6146438263e344025d66c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _startingStates:
+    _serializedList:
+    - Key:
+        asset: {fileID: 102900000, guid: 1f14125468043c846a382a7333b7a157, type: 3}
+        guid: 1f14125468043c846a382a7333b7a157
+      Value: 0
+    - Key:
+        asset: {fileID: 102900000, guid: 8c9cfa26abfee488c85f1582747f6a02, type: 3}
+        guid: 8c9cfa26abfee488c85f1582747f6a02
+      Value: 2
   <CurrentGameState>k__BackingField: 0
   _titleScene:
     asset: {fileID: 102900000, guid: 1f14125468043c846a382a7333b7a157, type: 3}
