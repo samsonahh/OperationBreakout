@@ -17,12 +17,12 @@ namespace PlayerStates
 
         private protected override void OnUpdate()
         {
-            Debug.Log(InputManager.Instance.MoveDirection);   
+
         }
 
         private protected override void OnFixedUpdate()
         {
-            
+            _context.RotateToMousePosition();
         }
 
         private protected override State<PlayerController> GetTransition()
