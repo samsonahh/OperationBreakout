@@ -27,6 +27,7 @@ public class StateMachine<TContext> where TContext : MonoBehaviour
         if(CurrentState == newState && !forceChangeToSameState)
             return;
 
+        
         HasTransitionedThisFrame = true;
 
         CurrentState?.Exit();
@@ -39,7 +40,8 @@ public class StateMachine<TContext> where TContext : MonoBehaviour
         HasTransitionedThisFrame = false;
         CurrentState?.Update();
         
-        Debug.Log(CurrentState);
+        if(CurrentState != null)
+            Debug.Log($"Current state: {CurrentState.GetType()}");
     }
 
     public void FixedUpdate()

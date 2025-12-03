@@ -7,7 +7,7 @@ public class InputManager : Singleton<InputManager>, IPlayerActions, IUIActions
 {
     public PlayerInputActions InputActions { get; private set; }
 
-    public event Action Interact = delegate { };
+    public event Action Dash = delegate { };
     public event Action UnPause = delegate { };
     
     public Vector2 MoveDirection => InputActions.Player.Move.ReadValue<Vector2>();
@@ -79,15 +79,10 @@ public class InputManager : Singleton<InputManager>, IPlayerActions, IUIActions
         
     }
 
-    public void OnAttack(InputAction.CallbackContext context)
-    {
-        
-    }
-
-    public void OnInteract(InputAction.CallbackContext context)
+    public void OnDash(InputAction.CallbackContext context)
     {
         if (context.performed)
-            Interact.Invoke();
+            Dash.Invoke();
     }
     
     public void OnPause(InputAction.CallbackContext context)

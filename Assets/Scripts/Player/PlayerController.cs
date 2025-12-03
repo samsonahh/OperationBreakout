@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [field: Header("States")]
     [field: SerializeField] public IdleState IdleState { get; private set; } = new();
     [field: SerializeField] public MoveState MoveState { get; private set; } = new();
+    [field: SerializeField] public DashState DashState { get; private set; } = new();
 
     [Header("Config")]
     [SerializeField] private float _rotationSpeed = 10f;
@@ -30,6 +31,8 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         _stateMachine?.Update();
+        
+        DashState.UpdateDashCooldown(Time.deltaTime);
     }
 
     private void FixedUpdate()
@@ -43,6 +46,7 @@ public class PlayerController : MonoBehaviour
         
         IdleState.Init(_stateMachine, this);
         MoveState.Init(_stateMachine, this);
+        DashState.Init(_stateMachine, this);
         
         _stateMachine.ChangeState(IdleState, true);
     }

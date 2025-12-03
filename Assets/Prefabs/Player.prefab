@@ -139,7 +139,12 @@ MonoBehaviour:
   <RigidBody>k__BackingField: {fileID: 3295796907847790002}
   <Collider>k__BackingField: {fileID: 4485569237662594560}
   <MoveState>k__BackingField:
-    _speed: 5
+    <Speed>k__BackingField: 5
+  <DashState>k__BackingField:
+    _initialSpeed: 20
+    _duration: 1
+    _easeType: 9
+    <CooldownDuration>k__BackingField: 3
   _rotationSpeed: 10
 --- !u!114 &2960971974486710558
 MonoBehaviour:
