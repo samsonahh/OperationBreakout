@@ -94,4 +94,13 @@ public static class Utils
     {
         return (mask.value & (1 << layer)) != 0;
     }
+
+    public static string FormatTimeMSSMs(float timeSeconds)
+    {
+        int minutes = (int)(timeSeconds / 60f);
+        int seconds = (int)(timeSeconds % 60f);
+        int milliseconds = (int)((timeSeconds * 1000f) % 1000f);
+
+        return $"{minutes}:{seconds:00}:{milliseconds:00}";
+    }
 }
