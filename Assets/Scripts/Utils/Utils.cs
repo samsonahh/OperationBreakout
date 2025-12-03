@@ -99,8 +99,10 @@ public static class Utils
     {
         int minutes = (int)(timeSeconds / 60f);
         int seconds = (int)(timeSeconds % 60f);
-        int milliseconds = (int)((timeSeconds * 1000f) % 1000f);
 
-        return $"{minutes}:{seconds:00}:{milliseconds:00}";
+        // Convert to hundredths of a second (00–99)
+        int hundredths = (int)((timeSeconds * 100f) % 100f);
+
+        return $"{minutes}:{seconds:00}:{hundredths:00}";
     }
 }
