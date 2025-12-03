@@ -60,6 +60,6 @@ public class PlayerController : MonoBehaviour
         Quaternion targetRotation = Quaternion.Euler(0, 0, targetAngle);
         transform.rotation = targetRotation;
 
-        ForwardDirection = targetRotation * Vector2.up;
+        ForwardDirection = targetRotation * Vector2.right;
     }
 }
