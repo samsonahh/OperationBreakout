@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class PauseUIPanel : UIPanel
 {
-    [SerializeField] private SceneReference _menuScene;
-    
     private protected override void Initialize()
     {
 
@@ -32,7 +30,7 @@ public class PauseUIPanel : UIPanel
         CloseUI();
     }
 
-    public void ReturnToMenu() => GameManager.Instance.SwitchScenes(_menuScene, GameState.Title).Forget();
+    public void ReturnToMenu() => GameManager.Instance.ReturnToMenu();
     
     public void OpenSettings() => UIManager.Instance.ShowPanel(UIManager.PanelName.Settings);
 }
