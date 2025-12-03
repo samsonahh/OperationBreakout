@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 7703180490550214444}
   - component: {fileID: 4896975681692699786}
   - component: {fileID: 2960971974486710558}
+  - component: {fileID: 2175534141020389085}
   - component: {fileID: 4485569237662594560}
   - component: {fileID: 3295796907847790002}
   m_Layer: 0
@@ -145,6 +146,7 @@ MonoBehaviour:
     _duration: 1
     _easeType: 9
     <CooldownDuration>k__BackingField: 3
+    <CooldownTimer>k__BackingField: 0
   _rotationSpeed: 10
 --- !u!114 &2960971974486710558
 MonoBehaviour:
@@ -160,6 +162,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <MaxHealth>k__BackingField: 10
   <CurrentHealth>k__BackingField: 0
+  OnDamageTaken:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2175534141020389085}
+        m_TargetAssemblyTypeName: HitNumberSpawner, Assembly-CSharp
+        m_MethodName: SpawnHitNumberOnSelf
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &2175534141020389085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4920614001628456924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d4ac02f59147246a34d8663adf3531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hitNumberPrefab: {fileID: 17131460343296706, guid: 47755e36f9df1124cbb538339f78fdbb, type: 3}
+  _spawnOffset: {x: 0, y: 0}
 --- !u!58 &4485569237662594560
 CircleCollider2D:
   m_ObjectHideFlags: 0

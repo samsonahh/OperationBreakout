@@ -1,6 +1,6 @@
 using NaughtyAttributes;
 using UnityEngine;
-using System;
+using UnityEngine.Events;
 
 public class Health : MonoBehaviour
 {
@@ -9,9 +9,9 @@ public class Health : MonoBehaviour
     [field: SerializeField, ReadOnly] public float CurrentHealth { get; private set; } = 0f;
 
     public bool IsDead { get; private set; }
-    
-    public event Action<float> OnHealthChanged = delegate { };
-    public event Action OnDeath = delegate { };
+
+    public UnityEvent<float> OnDamageTaken = new();
+    public UnityEvent OnDeath = new();
 
     private void Start()
     {
@@ -25,7 +25,7 @@ public class Health : MonoBehaviour
         
         CurrentHealth -= damage;
         
-        OnHealthChanged.Invoke(CurrentHealth);
+        OnDamageTaken.Invoke(damage);
         
         if (CurrentHealth <= 0f)
         {
