@@ -58,13 +58,7 @@ public class PlayerController : MonoBehaviour
 
         // Build rotation
         Quaternion targetRotation = Quaternion.Euler(0, 0, targetAngle);
-
-        // Smoothly rotate
-        RigidBody.MoveRotation(Quaternion.Slerp(
-            transform.rotation,
-            targetRotation,
-            _rotationSpeed * Time.deltaTime
-        ));
+        transform.rotation = targetRotation;
 
         ForwardDirection = targetRotation * Vector2.up;
     }

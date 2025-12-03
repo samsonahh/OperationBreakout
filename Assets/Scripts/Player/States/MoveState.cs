@@ -19,15 +19,13 @@ namespace PlayerStates
 
         private protected override void OnUpdate()
         {
-            
+            _context.RotateToMousePosition();
         }
 
         private protected override void OnFixedUpdate()
         {
             Vector3 moveDelta = _speed * Time.fixedDeltaTime * InputManager.Instance.MoveDirection;
             _context.RigidBody.MovePosition(_context.transform.position + moveDelta);
-            
-            _context.RotateToMousePosition();
         }
         
         private protected override State<PlayerController> GetTransition()
