@@ -7,13 +7,19 @@ namespace PlayerStates
     [System.Serializable]
     public class DashState : State<PlayerController>
     {
+        [Header("References")] 
+        [SerializeField] private Health _health;
+        
+        [Header("Config")]
         [SerializeField] private float _initialSpeed = 10f;
-        [SerializeField] private float _duration = 1f;
+        [SerializeField] private float _dashDuration = 0.75f;
+        [SerializeField] private float _invincibilityDuration = 0.25f;
         [SerializeField] private Ease _easeType = Ease.OutCubic;
         [field: SerializeField] public float CooldownDuration { get; private set; }  = 3f;
+        private const string DashIFramesTweenId = "DashIFrames";
 
         private float _currentSpeed;
-        [field: SerializeField] public float CooldownTimer { get; private set; } = 0f;
+        public float CooldownTimer { get; private set; } = 0f;
 
         public bool IsOnCooldown => CooldownTimer <= 0;
         public event Action OnDashReady = delegate { };
@@ -22,9 +28,10 @@ namespace PlayerStates
         {
             // Kill previous dash tween
             DOTween.Kill(this);
+            DOTween.Kill(DashIFramesTweenId);
             
             _currentSpeed = _initialSpeed;
-            DOVirtual.Float(_initialSpeed, _context.MoveState.Speed, _duration, (newSpeed) =>
+            DOVirtual.Float(_initialSpeed, _context.MoveState.Speed, _dashDuration, (newSpeed) =>
                 {
                     _currentSpeed = newSpeed;
                 })
@@ -34,11 +41,21 @@ namespace PlayerStates
                 {
                     _stateMachine.ChangeState(_context.MoveState);
                 });
+            
+            // Handle invincibility
+            _health.SetInvincibility(true);
+            DOVirtual.DelayedCall(_invincibilityDuration, () =>
+            {
+                _health.SetInvincibility(false);
+            }).SetId(DashIFramesTweenId);
         }
 
         private protected override void OnExit()
         {
             CooldownTimer = CooldownDuration;
+            
+            // Just in case player never goes back to being vulnerable
+            _health.SetInvincibility(false);
         }
 
         private protected override void OnUpdate()

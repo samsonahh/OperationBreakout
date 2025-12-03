@@ -142,11 +142,12 @@ MonoBehaviour:
   <MoveState>k__BackingField:
     <Speed>k__BackingField: 5
   <DashState>k__BackingField:
+    _health: {fileID: 2960971974486710558}
     _initialSpeed: 20
-    _duration: 1
+    _dashDuration: 0.75
+    _invincibilityDuration: 0.25
     _easeType: 9
     <CooldownDuration>k__BackingField: 3
-    <CooldownTimer>k__BackingField: 0
   _rotationSpeed: 10
 --- !u!114 &2960971974486710558
 MonoBehaviour:
@@ -177,6 +178,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  OnInvincible:
+    m_PersistentCalls:
+      m_Calls: []
   OnDeath:
     m_PersistentCalls:
       m_Calls: []
