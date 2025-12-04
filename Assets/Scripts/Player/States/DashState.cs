@@ -9,11 +9,13 @@ namespace PlayerStates
     {
         [Header("References")] 
         [SerializeField] private Health _health;
+        [SerializeField] private SpriteRenderer _playerVisual;
         
         [Header("Config")]
         [SerializeField] private float _initialSpeed = 10f;
         [SerializeField] private float _dashDuration = 0.75f;
         [SerializeField] private float _invincibilityDuration = 0.25f;
+        [SerializeField, Range(0f, 1f)] private float _invincibilityTransparency = 0.25f;
         [SerializeField] private Ease _easeType = Ease.OutCubic;
         [field: SerializeField] public float CooldownDuration { get; private set; }  = 3f;
         private const string DashIFramesTweenId = "DashIFrames";
@@ -21,7 +23,9 @@ namespace PlayerStates
         private float _currentSpeed;
         public float CooldownTimer { get; private set; } = 0f;
 
-        public bool IsOnCooldown => CooldownTimer <= 0;
+        public bool IsOnCooldown { get; private set; } = false;
+        public event Action OnFailDash = delegate { };
+        public event Action OnCooldownStarted = delegate { };
         public event Action OnDashReady = delegate { };
         
         private protected override void OnEnter()
@@ -44,18 +48,23 @@ namespace PlayerStates
             
             // Handle invincibility
             _health.SetInvincibility(true);
+            _playerVisual.color = new Color(1, 1, 1, _invincibilityTransparency);
             DOVirtual.DelayedCall(_invincibilityDuration, () =>
             {
                 _health.SetInvincibility(false);
+                _playerVisual.color = Color.white;
             }).SetId(DashIFramesTweenId);
         }
 
         private protected override void OnExit()
         {
-            CooldownTimer = CooldownDuration;
+            CooldownTimer = 0f;
+            IsOnCooldown = true;
+            OnCooldownStarted.Invoke();
             
             // Just in case player never goes back to being vulnerable
             _health.SetInvincibility(false);
+            _playerVisual.color = Color.white;
         }
 
         private protected override void OnUpdate()
@@ -76,14 +85,14 @@ namespace PlayerStates
 
         public void UpdateDashCooldown(float deltaTime)
         {
-            if (IsOnCooldown)
+            if (!IsOnCooldown)
                 return;
             
-            CooldownTimer -= deltaTime;
-
-            if (IsOnCooldown)
+            CooldownTimer += deltaTime;
+            if (CooldownTimer >= CooldownDuration)
             {
-                CooldownTimer = 0f;
+                CooldownTimer = CooldownDuration;
+                IsOnCooldown = false;
                 OnDashReady?.Invoke();
             }
         }
@@ -91,10 +100,16 @@ namespace PlayerStates
         public void TryDash()
         {
             if (_stateMachine.CurrentState == this)
+            {
+                OnFailDash.Invoke();
                 return;
-            
-            if (!IsOnCooldown)
+            }
+
+            if (IsOnCooldown)
+            {
+                OnFailDash.Invoke();
                 return;
+            }
             
             _stateMachine.ChangeState(this);
         }

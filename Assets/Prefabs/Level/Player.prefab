@@ -173,12 +173,14 @@ MonoBehaviour:
   <RigidBody>k__BackingField: {fileID: 3295796907847790002}
   <Collider>k__BackingField: {fileID: 4485569237662594560}
   <MoveState>k__BackingField:
-    <Speed>k__BackingField: 5
+    <Speed>k__BackingField: 3
   <DashState>k__BackingField:
     _health: {fileID: 2960971974486710558}
-    _initialSpeed: 20
-    _dashDuration: 0.75
+    _playerVisual: {fileID: 2539235531260722249}
+    _initialSpeed: 10
+    _dashDuration: 0.5
     _invincibilityDuration: 0.25
+    _invincibilityTransparency: 0.25
     _easeType: 9
     <CooldownDuration>k__BackingField: 3
   _rotationSpeed: 10
@@ -197,14 +199,15 @@ MonoBehaviour:
   _playerController: {fileID: 4896975681692699786}
   _gunFirePoint: {fileID: 4723117173450894193}
   _bulletPrefab: {fileID: 2863222341292781988, guid: 5a26423dbb0af4446ada7870719bed9f, type: 3}
-  _shootCooldown: 1
+  <ShootCooldown>k__BackingField: 0.6
   _burstCount: 3
-  _burstDelay: 0.1
+  _burstDelay: 0.05
   _bulletSpeed: 15
   _bulletLifespan: 5
-  _maxHeat: 10
+  <MaxHeat>k__BackingField: 10
   _heatPerShot: 1
-  _overheatDuration: 3
+  _heatDepletionRate: 0.25
+  <OverheatDuration>k__BackingField: 3
 --- !u!114 &2960971974486710558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,7 +358,7 @@ GameObject:
   - component: {fileID: 7213250801828007837}
   - component: {fileID: 8512508924084231184}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -370,7 +373,7 @@ Transform:
   m_GameObject: {fileID: 6261374127148890821}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.601, y: -0.359, z: 0}
+  m_LocalPosition: {x: 0.25, y: 0, z: 0}
   m_LocalScale: {x: 0.2073, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -422,7 +425,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 0.5660378, g: 0.08276967, b: 0.08276967, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

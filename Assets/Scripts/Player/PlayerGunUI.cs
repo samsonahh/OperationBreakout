@@ -46,6 +46,7 @@ public class PlayerGunUI : MonoBehaviour
     private void Update()
     {
         HandleShootCooldownBar();
+        HandleHeatFillUpBar();
         HandleOverheatCooldown();
     }
 
@@ -64,10 +65,18 @@ public class PlayerGunUI : MonoBehaviour
         _heatBar.value = 1f - barValue;
     }
 
-    private void PlayerGun_OnHeatAdded(float addedHeat)
+    private void HandleHeatFillUpBar()
     {
+        if (_playerGun.IsOverheated)
+            return;
+        
         float barValue = _playerGun.CurrentHeat / _playerGun.MaxHeat;
         _heatBar.value = barValue;
+    }
+
+    private void PlayerGun_OnHeatAdded(float addedHeat)
+    {
+
     }
 
     private void PlayerGun_OnOverheat()

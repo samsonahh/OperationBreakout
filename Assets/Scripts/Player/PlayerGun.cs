@@ -24,6 +24,7 @@ public class PlayerGun : MonoBehaviour
     [field: Header("Overheat Config")]
     [field: SerializeField] public float MaxHeat { get; private set; } = 10f;
     [SerializeField] private float _heatPerShot = 1f;
+    [SerializeField] private float _heatDepletionRate = 1f;
     [field: SerializeField] public float OverheatDuration { get; private set; } = 3f;
 
     public float CurrentHeat { get; private set; } = 0f;
@@ -39,12 +40,14 @@ public class PlayerGun : MonoBehaviour
 
     private void OnDisable()
     {
-        InputManager.Instance.Attack -= InputManager_Attack;
+        if(InputManager.Instance != null)
+            InputManager.Instance.Attack -= InputManager_Attack;
     }
 
     private void Update()
     {
         HandleShootCooldown(Time.deltaTime);
+        HandleHeatDepletion(Time.deltaTime);
         HandleOverheatDuration(Time.deltaTime);
     }
 
@@ -119,6 +122,19 @@ public class PlayerGun : MonoBehaviour
         }
     }
 
+    private void HandleHeatDepletion(float deltaTime)
+    {
+        if (IsOverheated)
+            return;
+
+        if (CurrentHeat <= 0f)
+            return;
+        
+        CurrentHeat -= _heatDepletionRate * deltaTime;
+        if (CurrentHeat <= 0f)
+            CurrentHeat = 0f;
+    }
+    
     private void HandleOverheatDuration(float deltaTime)
     {
         if (!IsOverheated)
