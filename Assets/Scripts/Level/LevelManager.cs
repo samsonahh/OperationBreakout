@@ -8,6 +8,7 @@ public class LevelManager : MonoBehaviour
 
     public float CurrentTimer { get; private set; } = 0f;
     public bool IsTimerDepleted { get; private set; }
+    public Action<float> OnTimerAdded = delegate { };
     public Action<float> OnTimerSubtracted = delegate { };
     public Action OnTimerDepleted = delegate { };
 
@@ -31,13 +32,26 @@ public class LevelManager : MonoBehaviour
         {
             IsTimerDepleted = true;
             CurrentTimer = 0f;
-            OnTimerDepleted.Invoke();
+            
+            HandleTimerDepleted();
         }
     }
 
-    public void SubtractTimer(float subtraction)
+    private void HandleTimerDepleted()
     {
-        CountdownTimer(subtraction);
-        OnTimerSubtracted.Invoke(subtraction);
+        GameManager.Instance.ChangeGameState(GameState.Results);
+        OnTimerDepleted.Invoke();
+    }
+
+    public void SubtractTimer(float subtractionAmount)
+    {
+        CountdownTimer(subtractionAmount);
+        OnTimerSubtracted.Invoke(subtractionAmount);
+    }
+
+    public void AddTimer(float additionAmount)
+    {
+        CountdownTimer(-additionAmount);
+        OnTimerAdded.Invoke(additionAmount);
     }
 }

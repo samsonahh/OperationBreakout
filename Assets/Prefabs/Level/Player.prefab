@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &741100775598651170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4723117173450894193}
+  m_Layer: 0
+  m_Name: GunFirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4723117173450894193
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741100775598651170}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -0, y: -0.471, z: 0}
+  m_LocalScale: {x: 1, y: 4.823925, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7213250801828007837}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3021006691797912287
 GameObject:
   m_ObjectHideFlags: 0
@@ -97,12 +128,13 @@ GameObject:
   m_Component:
   - component: {fileID: 7703180490550214444}
   - component: {fileID: 4896975681692699786}
+  - component: {fileID: 4830650526646955795}
   - component: {fileID: 2960971974486710558}
   - component: {fileID: 2175534141020389085}
   - component: {fileID: 7374295714627472408}
   - component: {fileID: 4485569237662594560}
   - component: {fileID: 3295796907847790002}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,6 +182,29 @@ MonoBehaviour:
     _easeType: 9
     <CooldownDuration>k__BackingField: 3
   _rotationSpeed: 10
+--- !u!114 &4830650526646955795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4920614001628456924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 154bbfd4899933c4f8789048bf61c033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerController: {fileID: 4896975681692699786}
+  _gunFirePoint: {fileID: 4723117173450894193}
+  _bulletPrefab: {fileID: 2863222341292781988, guid: 5a26423dbb0af4446ada7870719bed9f, type: 3}
+  _shootCooldown: 1
+  _burstCount: 3
+  _burstDelay: 0.1
+  _bulletSpeed: 15
+  _bulletLifespan: 5
+  _maxHeat: 10
+  _heatPerShot: 1
+  _overheatDuration: 3
 --- !u!114 &2960971974486710558
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -318,7 +373,8 @@ Transform:
   m_LocalPosition: {x: 0.601, y: -0.359, z: 0}
   m_LocalScale: {x: 0.2073, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 4723117173450894193}
   m_Father: {fileID: 7703180490550214444}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &8512508924084231184

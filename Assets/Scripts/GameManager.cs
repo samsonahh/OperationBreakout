@@ -13,6 +13,7 @@ public enum GameState
         Loading,
         Gameplay,
         Paused,
+        Results,
     }
 
 public class GameManager : Singleton<GameManager>
@@ -96,6 +97,10 @@ public class GameManager : Singleton<GameManager>
             case GameState.Paused:
                 Time.timeScale = 0f;
                 UIManager.Instance.ShowPanel(UIManager.PanelName.PauseMenu);
+                break;
+            case GameState.Results:
+                Time.timeScale = 0f;
+                InputManager.Instance.EnableUIActions();
                 break;
         }
     }
