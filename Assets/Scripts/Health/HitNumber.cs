@@ -1,7 +1,7 @@
 using System.Collections;
 using Cysharp.Threading.Tasks;
 using DG.Tweening;
-using NaughtyAttributes;
+using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
 

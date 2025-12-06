@@ -1,5 +1,5 @@
 using System;
-using NaughtyAttributes;
+using Sirenix.OdinInspector;
 using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.SceneManagement;

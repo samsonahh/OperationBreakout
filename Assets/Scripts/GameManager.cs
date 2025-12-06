@@ -1,11 +1,12 @@
 using Eflatun.SceneReference;
-using NaughtyAttributes;
 using System;
 using System.Collections.Generic;
 using AYellowpaper.SerializedCollections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Cysharp.Threading.Tasks;
+using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 
 public enum GameState
     {

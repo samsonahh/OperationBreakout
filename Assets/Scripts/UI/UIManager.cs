@@ -1,7 +1,8 @@
-using AYellowpaper.SerializedCollections;
-using NaughtyAttributes;
 using System;
 using System.Collections.Generic;
+using AYellowpaper.SerializedCollections;
+using Sirenix.OdinInspector;
+using Sirenix.Serialization;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
