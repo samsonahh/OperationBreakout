@@ -1,8 +1,14 @@
-﻿namespace EnemyStates
+﻿using LBG;
+using UnityEngine;
+
+namespace EnemyStates
 {
     [System.Serializable]
-    public class AttackState : State<Enemy>
+    [SubclassPath(SubClassName = "Wander")]
+    public class WanderPatrolState : PatrolState
     {
+        [SerializeField] private float _moveSpeed = 3f;
+        
         private protected override void OnEnter()
         {
             

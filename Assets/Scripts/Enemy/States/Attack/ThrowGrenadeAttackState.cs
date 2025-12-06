@@ -1,8 +1,14 @@
-﻿namespace EnemyStates
+﻿using LBG;
+using UnityEngine;
+
+namespace EnemyStates
 {
     [System.Serializable]
-    public class PatrolState : State<Enemy>
+    [SubclassPath("Throw", "Grenade")]
+    public class ThrowGrenadeAttackState : AttackState
     {
+        [SerializeField] private float _grenadeInitialSpeed = 5f;
+        
         private protected override void OnEnter()
         {
             

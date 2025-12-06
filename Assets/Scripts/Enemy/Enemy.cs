@@ -1,15 +1,17 @@
 using System;
 using UnityEngine;
 using EnemyStates;
+using LBG;
+using Sirenix.OdinInspector;
 
 public class Enemy : MonoBehaviour
 {
     private StateMachine<Enemy> _stateMachine;
 
     [field: Header("States")]
-    [field: SerializeField] public IdleState IdleState { get; private set; } = new();
-    [field: SerializeField] public PatrolState PatrolState { get; private set; } = new();
-    [field: SerializeField] public AttackState AttackState { get; private set; } = new();
+    [field: SerializeReference, SubclassSelector] public IdleState IdleState { get; private set; }
+    [field: SerializeReference, SubclassSelector] public PatrolState PatrolState { get; private set; }
+    [field: SerializeReference, SubclassSelector] public AttackState AttackState { get; private set; }
     
     private void Awake()
     {

@@ -1,8 +1,14 @@
-﻿namespace EnemyStates
+﻿using LBG;
+using UnityEngine;
+
+namespace EnemyStates
 {
     [System.Serializable]
-    public class IdleState : State<Enemy>
+    [SubclassPath("Gun", "Single Shot")]
+    public class SingleShotAttackState : AttackState
     {
+        [SerializeField] private float _bulletSpeed = 10f;
+        
         private protected override void OnEnter()
         {
             
