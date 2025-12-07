@@ -15,6 +15,7 @@ public class PlayerGun : MonoBehaviour
     [SerializeField] private float _burstDelay = 0.1f;
     [SerializeField] private float _bulletSpeed = 15f;
     [SerializeField] private float _bulletLifespan = 5f;
+    [SerializeField] private float _bulletDamage = 1f;
     
     public float ShootCooldownTimer { get; private set; }
     public bool CanShoot { get; private set; } = true;
@@ -104,7 +105,7 @@ public class PlayerGun : MonoBehaviour
     private void FireBullet()
     {
         Bullet spawnedBullet = Instantiate(_bulletPrefab, _gunFirePoint.position, Quaternion.identity);
-        spawnedBullet.Init(_bulletSpeed, _playerController.ForwardDirection, _bulletLifespan);
+        spawnedBullet.Init(_bulletSpeed, _playerController.ForwardDirection, _bulletLifespan, _bulletDamage);
     }
     
     private void AddHeat()

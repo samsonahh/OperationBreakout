@@ -204,6 +204,7 @@ MonoBehaviour:
   _burstDelay: 0.05
   _bulletSpeed: 15
   _bulletLifespan: 5
+  _bulletDamage: 1
   <MaxHeat>k__BackingField: 10
   _heatPerShot: 1
   _heatDepletionRate: 0.25
@@ -333,8 +334,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0
+  m_LinearDamping: 1000000
+  m_AngularDamping: 1000000
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -346,7 +347,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!1 &6261374127148890821
 GameObject:
   m_ObjectHideFlags: 0

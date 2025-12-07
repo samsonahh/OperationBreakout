@@ -7,11 +7,13 @@ namespace EnemyStates
     [SubclassPath(SubClassName = "Basic")]
     public class BasicIdleState : IdleState
     {
-        [SerializeField] private float _basic;
+        [SerializeField] private float _duration = 1f;
+
+        private float _timer = 0f;
         
         private protected override void OnEnter()
         {
-            
+            _timer = 0f;
         }
 
         private protected override void OnExit()
@@ -21,7 +23,7 @@ namespace EnemyStates
 
         private protected override void OnUpdate()
         {
-            
+            _timer += Time.deltaTime;
         }
 
         private protected override void OnFixedUpdate()
@@ -31,6 +33,9 @@ namespace EnemyStates
 
         private protected override State<Enemy> GetTransition()
         {
+            if (_timer >= _duration)
+                return _context.PatrolState;
+            
             return null;
         }
     }

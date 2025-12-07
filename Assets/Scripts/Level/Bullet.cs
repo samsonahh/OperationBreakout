@@ -7,11 +7,13 @@ public class Bullet : MonoBehaviour
     
     private float _shootSpeed;
     private Vector2 _shootDirection;
+    private float _damage;
     
-    public void Init(float shootSpeed, Vector2 shootDirection, float lifespan)
+    public void Init(float shootSpeed, Vector2 shootDirection, float lifespan, float damage)
     {
         _shootSpeed = shootSpeed;
         _shootDirection = shootDirection;
+        _damage = damage;
         FaceShootDirection();
         
         Destroy(gameObject, lifespan);
