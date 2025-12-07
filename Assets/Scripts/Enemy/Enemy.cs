@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour, ITeam
 {
     [field: Header("References")]
     [field: SerializeField] public Rigidbody2D RigidBody { get; private set; }
-    [field: SerializeField] public CircleCollider2D Collider { get; private set; }
+    [field: SerializeField] public CircleCollider2D HitBoxCollider { get; private set; }
 
     public Team Team { get; set; } = Team.Enemy;
     

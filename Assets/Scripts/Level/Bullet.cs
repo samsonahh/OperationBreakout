@@ -43,10 +43,12 @@ public class Bullet : MonoBehaviour
 
     private void HandleOnHitHealth(Collider2D other)
     {
-        if (!other.TryGetComponent(out Health health))
+        Health health = other.GetComponentInParent<Health>();
+        if (health == null)
             return;
 
-        if (!other.TryGetComponent(out ITeam teamComponent))
+        ITeam teamComponent = other.GetComponentInParent<ITeam>();
+        if (teamComponent == null)
             return;
 
         if (teamComponent.Team == _team)

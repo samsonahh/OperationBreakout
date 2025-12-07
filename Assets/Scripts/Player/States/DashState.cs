@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 
@@ -14,6 +15,7 @@ namespace PlayerStates
         [Header("Config")]
         [SerializeField] private float _initialSpeed = 10f;
         [SerializeField] private float _dashDuration = 0.75f;
+        [SerializeField] private float _dashContactDamage = 1f;
         [SerializeField] private float _invincibilityDuration = 0.25f;
         [SerializeField, Range(0f, 1f)] private float _invincibilityTransparency = 0.25f;
         [SerializeField] private Ease _easeType = Ease.OutCubic;
@@ -27,6 +29,8 @@ namespace PlayerStates
         public event Action OnFailDash = delegate { };
         public event Action OnCooldownStarted = delegate { };
         public event Action OnDashReady = delegate { };
+
+        private HashSet<Collider2D> _contactDamagedColliders;
         
         private protected override void OnEnter()
         {
@@ -54,6 +58,9 @@ namespace PlayerStates
                 _health.SetInvincibility(false);
                 _playerVisual.color = Color.white;
             }).SetId(DashIFramesTweenId);
+            
+            // reset contact hit enemies
+            _contactDamagedColliders = new();
         }
 
         private protected override void OnExit()
@@ -76,6 +83,8 @@ namespace PlayerStates
         {
             Vector3 moveDelta = _currentSpeed * Time.fixedDeltaTime * InputManager.Instance.MoveDirection;
             _context.RigidBody.MovePosition(_context.transform.position + moveDelta);
+
+            TryHitEnemies();
         }
         
         private protected override State<PlayerController> GetTransition()
@@ -112,6 +121,38 @@ namespace PlayerStates
             }
             
             _stateMachine.ChangeState(this);
+        }
+
+        private void TryHitEnemies()
+        {
+            if (!_health.IsInvincible)
+                return;
+            
+            Collider2D[] collisions =
+                Physics2D.OverlapCircleAll(_context.transform.position, _context.HitBoxCollider.radius, LayerMask.GetMask("Hitbox"));
+            if (collisions == null)
+                return;
+            if (collisions.Length == 0)
+                return;
+
+            foreach (Collider2D collision in collisions)
+            {
+                if(_contactDamagedColliders.Contains(collision))
+                    continue;
+                
+                Health health = collision.gameObject.GetComponentInParent<Health>();
+                if (health == null)
+                    continue;
+                ITeam team = collision.gameObject.GetComponentInParent<ITeam>();
+                if (team == null)
+                    continue;
+
+                if (team.Team == _context.Team)
+                    continue;
+                
+                health.TakeDamage(_dashContactDamage);
+                _contactDamagedColliders.Add(collision);
+            }
         }
     }
 }
