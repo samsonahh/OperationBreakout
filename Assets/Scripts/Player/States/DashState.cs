@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using DG.Tweening;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace PlayerStates
@@ -12,14 +13,34 @@ namespace PlayerStates
         [SerializeField] private Health _health;
         [SerializeField] private SpriteRenderer _playerVisual;
         
-        [Header("Config")]
+        [TabGroup("Config", "Basic")]
         [SerializeField] private float _initialSpeed = 10f;
+        [TabGroup("Config", "Basic")]
         [SerializeField] private float _dashDuration = 0.75f;
-        [SerializeField] private float _dashContactDamage = 1f;
-        [SerializeField] private float _invincibilityDuration = 0.25f;
-        [SerializeField, Range(0f, 1f)] private float _invincibilityTransparency = 0.25f;
-        [SerializeField] private Ease _easeType = Ease.OutCubic;
+        [field: TabGroup("Config", "Basic")]
         [field: SerializeField] public float CooldownDuration { get; private set; }  = 3f;
+        
+        [TabGroup("Config", "Contact")]
+        [SerializeField] private float _contactDamage = 1f;
+        [Header("Camera Shake")]
+        [TabGroup("Config", "Contact")]
+        [SerializeField] private float _contactCameraShakeDuration = 0.2f;
+        [TabGroup("Config", "Contact")]
+        [SerializeField] private float _contactCameraShakeAmplitude = 1f;
+        [TabGroup("Config", "Contact")]
+        [SerializeField] private float _contactCameraShakeFrequency = 1f;
+        [Header("Impact Frames")]
+        [TabGroup("Config", "Contact")]
+        [SerializeField] private float _contactImpactFramesTimeScale = 0.1f;
+        [TabGroup("Config", "Contact")]
+        [SerializeField] private float _contactImpactFramesDuration = 0.25f;
+        
+        [TabGroup("Config", "Invincibility")]
+        [SerializeField] private float _invincibilityDuration = 0.25f;
+        [TabGroup("Config", "Invincibility")]
+        [SerializeField, Range(0f, 1f)] private float _invincibilityTransparency = 0.25f;
+        [TabGroup("Config", "Invincibility")]
+        [SerializeField] private Ease _easeType = Ease.OutCubic;
         private const string DashIFramesTweenId = "DashIFrames";
 
         private float _currentSpeed;
@@ -45,6 +66,7 @@ namespace PlayerStates
                 })
                 .SetEase(_easeType)
                 .SetId(this)
+                .SetUpdate(false)
                 .OnComplete(() =>
                 {
                     _stateMachine.ChangeState(_context.MoveState);
@@ -57,7 +79,8 @@ namespace PlayerStates
             {
                 _health.SetInvincibility(false);
                 _playerVisual.color = Color.white;
-            }).SetId(DashIFramesTweenId);
+            }).SetId(DashIFramesTweenId)
+            .SetUpdate(false);
             
             // reset contact hit enemies
             _contactDamagedColliders = new();
@@ -150,8 +173,10 @@ namespace PlayerStates
                 if (team.Team == _context.Team)
                     continue;
                 
-                health.TakeDamage(_dashContactDamage);
+                health.TakeDamage(_contactDamage);
                 _contactDamagedColliders.Add(collision);
+                GameManager.Instance.StartImpactFrames(_contactImpactFramesTimeScale, _contactImpactFramesDuration);
+                CameraManager.Instance.CameraShaker.ShakeCamera(_contactCameraShakeAmplitude, _contactCameraShakeFrequency, _contactCameraShakeDuration);
             }
         }
     }

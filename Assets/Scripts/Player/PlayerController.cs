@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using PlayerStates;
+using Sirenix.OdinInspector;
 
 public class PlayerController : MonoBehaviour, ITeam
 {
@@ -12,9 +13,11 @@ public class PlayerController : MonoBehaviour, ITeam
     
     private StateMachine<PlayerController> _stateMachine;
 
-    [field: Header("States")]
+    [field: TabGroup("States", "Idle")]
     [field: SerializeField] public IdleState IdleState { get; private set; } = new();
+    [field: TabGroup("States", "Move")]
     [field: SerializeField] public MoveState MoveState { get; private set; } = new();
+    [field: TabGroup("States", "Dash")]
     [field: SerializeField] public DashState DashState { get; private set; } = new();
 
     [Header("Config")]

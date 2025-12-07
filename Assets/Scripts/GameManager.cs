@@ -1,5 +1,6 @@
 using Eflatun.SceneReference;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using AYellowpaper.SerializedCollections;
 using UnityEngine;
@@ -39,6 +40,14 @@ public class GameManager : Singleton<GameManager>
     private SceneReference _titleScene;
     
     [SerializeField] private SceneReference _mainScene;
+    
+    public float DefaultFixedDeltaTime { get; private set; }
+    private float _previousTimeScale = 1f;
+    
+    private float _impactFramesTimeScale;
+    private float _impactFramesDuration;
+    private float _impactFramesRemainingTime;
+    private Coroutine _impactFramesCoroutine;
 
     private protected override void Awake()
     {
@@ -53,6 +62,11 @@ public class GameManager : Singleton<GameManager>
         else
             ChangeGameState(GameState.Gameplay, true);
 #endif
+    }
+
+    private void Start()
+    {
+        DefaultFixedDeltaTime = Time.fixedDeltaTime;
     }
 
     /// <summary>
@@ -82,25 +96,25 @@ public class GameManager : Singleton<GameManager>
         switch (newState)
         {
             case GameState.Title:
-                Time.timeScale = 1f;
+                SetTimeScale(1f);
                 UIManager.Instance.HideAllPanels();
                 InputManager.Instance.EnableUIActions();
                 break;
             case GameState.Loading:
-                Time.timeScale = 0f;
+                SetTimeScale(0f);
                 InputManager.Instance.DisableAllActions();
                 break;
             case GameState.Gameplay:
-                Time.timeScale = 1f;
+                SetTimeScale(1f);
                 UIManager.Instance.HideAllPanels();
                 InputManager.Instance.EnablePlayerActions();
                 break;
             case GameState.Paused:
-                Time.timeScale = 0f;
+                SetTimeScale(0f, true);
                 UIManager.Instance.ShowPanel(UIManager.PanelName.PauseMenu);
                 break;
             case GameState.Results:
-                Time.timeScale = 0f;
+                SetTimeScale(0f);
                 InputManager.Instance.EnableUIActions();
                 break;
         }
@@ -156,5 +170,58 @@ public class GameManager : Singleton<GameManager>
 #else
             Application.Quit();
 #endif
+    }
+    
+    /// <summary>
+    /// Sets the timescale of the game.
+    /// You can specify whether to save the previous timescale value.
+    /// </summary>
+    /// <param name="timeScale">The new timescale value.</param>
+    /// <param name="trackPrevious">Whether to save the previous timescale value.</param>
+    public void SetTimeScale(float timeScale, bool trackPrevious = false)
+    {
+        _previousTimeScale = trackPrevious ? Time.timeScale : 1f;
+        Time.timeScale = timeScale;
+        Time.fixedDeltaTime = DefaultFixedDeltaTime * timeScale;
+    }
+    
+    /// <summary>
+    /// Starts the impact frames with the specified timescale and duration.
+    /// </summary>
+    /// <param name="timeScale">The timescale of the impact frames.</param>
+    /// <param name="duration">The duration of the impact frames.</param>
+    public void StartImpactFrames(float timeScale, float duration)
+    {
+        if (duration <= 0) return;
+
+        if(_impactFramesCoroutine != null)
+        {
+            _impactFramesRemainingTime = Mathf.Max(_impactFramesRemainingTime, duration);
+            return;
+        }
+        
+        _impactFramesRemainingTime = duration;
+        _impactFramesCoroutine = StartCoroutine(ImpactFramesCoroutine(timeScale));
+    }
+    
+    /// <summary>
+    /// Coroutine that handles the impact frames of the weapon.
+    /// </summary>
+    /// <param name="timeScale">The timescale of the impact frames.</param>
+    private IEnumerator ImpactFramesCoroutine(float timeScale)
+    {
+        SetTimeScale(timeScale);
+
+        while (_impactFramesRemainingTime > 0f)
+        {
+            if (CurrentGameState == GameState.Gameplay)
+                _impactFramesRemainingTime -= Time.unscaledDeltaTime; // only increment if playing
+
+            yield return null;
+        }
+        _impactFramesRemainingTime = 0f;
+
+        SetTimeScale(1);
+        _impactFramesCoroutine = null;
     }
 }

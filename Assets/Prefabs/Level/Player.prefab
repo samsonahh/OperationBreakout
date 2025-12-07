@@ -248,11 +248,16 @@ MonoBehaviour:
     _playerVisual: {fileID: 2539235531260722249}
     _initialSpeed: 15
     _dashDuration: 0.75
-    _dashContactDamage: 1
+    <CooldownDuration>k__BackingField: 2
+    _contactDamage: 1
+    _contactCameraShakeDuration: 0.15
+    _contactCameraShakeAmplitude: 3
+    _contactCameraShakeFrequency: 2
+    _contactImpactFramesTimeScale: 0.1
+    _contactImpactFramesDuration: 0.25
     _invincibilityDuration: 0.25
     _invincibilityTransparency: 0.25
     _easeType: 9
-    <CooldownDuration>k__BackingField: 2
   _rotationSpeed: 10
 --- !u!114 &4830650526646955795
 MonoBehaviour:
