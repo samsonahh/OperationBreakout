@@ -7,6 +7,7 @@ public class Health : MonoBehaviour
     [field: Header("Config")]
     [field: SerializeField] public float MaxHealth { get; private set; } = 10f;
     [field: SerializeField, ReadOnly] public float CurrentHealth { get; private set; } = 0f;
+    [SerializeField] private bool _useHealth = true;
 
     public bool IsDead { get; private set; }
     public bool IsInvincible { get; private set; }
@@ -28,7 +29,8 @@ public class Health : MonoBehaviour
         if (IsInvincible)
             return;
         
-        CurrentHealth -= damage;
+        if(_useHealth)
+            CurrentHealth -= damage;
         
         OnDamageTaken.Invoke(damage);
         
@@ -38,18 +40,6 @@ public class Health : MonoBehaviour
             IsDead = true;
             OnDeath.Invoke();
         }
-    }
-
-    /// <summary>
-    /// This is for health that doesn't need to go down but still needs the damage taking events.
-    /// </summary>
-    /// <param name="damage"></param>
-    public void TakeFakeDamage(float damage)
-    {
-        if (IsInvincible)
-            return;
-        
-        OnDamageTaken.Invoke(damage);
     }
 
     [Button("Take One Damage")]

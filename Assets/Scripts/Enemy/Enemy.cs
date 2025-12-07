@@ -4,10 +4,13 @@ using EnemyStates;
 using LBG;
 using Sirenix.OdinInspector;
 
-public class Enemy : MonoBehaviour
+public class Enemy : MonoBehaviour, ITeam
 {
+    [field: Header("References")]
     [field: SerializeField] public Rigidbody2D RigidBody { get; private set; }
     [field: SerializeField] public CircleCollider2D Collider { get; private set; }
+
+    public Team Team { get; set; } = Team.Enemy;
     
     private StateMachine<Enemy> _stateMachine;
     

@@ -197,8 +197,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerController: {fileID: 4896975681692699786}
-  _gunFirePoint: {fileID: 4723117173450894193}
-  _bulletPrefab: {fileID: 2863222341292781988, guid: 5a26423dbb0af4446ada7870719bed9f, type: 3}
+  _playerHealth: {fileID: 0}
+  _bulletSpawner:
+    _bulletPrefab: {fileID: 2863222341292781988, guid: 5a26423dbb0af4446ada7870719bed9f, type: 3}
+    _spawnPoint: {fileID: 4723117173450894193}
   <ShootCooldown>k__BackingField: 0.6
   _burstCount: 3
   _burstDelay: 0.05
@@ -223,6 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <MaxHealth>k__BackingField: 10
   <CurrentHealth>k__BackingField: 0
+  _useHealth: 0
   OnDamageTaken:
     m_PersistentCalls:
       m_Calls:
@@ -270,6 +273,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _hitNumberPrefab: {fileID: 17131460343296706, guid: 47755e36f9df1124cbb538339f78fdbb, type: 3}
   _spawnOffset: {x: 0, y: 0}
+  _useRandomOffset: 1
+  _offsetRadius: 0.1
 --- !u!114 &7374295714627472408
 MonoBehaviour:
   m_ObjectHideFlags: 0

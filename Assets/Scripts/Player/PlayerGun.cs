@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerGun : MonoBehaviour
 {
     [SerializeField] private PlayerController _playerController;
-    [SerializeField] private Transform _gunFirePoint;
-    [SerializeField] private Bullet _bulletPrefab;
+    [SerializeField] private Health _playerHealth;
+    [SerializeField] private BulletSpawner _bulletSpawner;
 
     [field: Header("Shoot Config")]
     [field: SerializeField] public float ShootCooldown { get; private set; } = 1f;
@@ -97,15 +97,9 @@ public class PlayerGun : MonoBehaviour
     {
         for (int i = 0; i < _burstCount; i++)
         {
-            FireBullet();
+            _bulletSpawner.Spawn(_playerController.Team, _playerController.ForwardDirection, _bulletSpeed, _bulletLifespan, _bulletDamage);
             await UniTask.Delay((int)(_burstDelay * 1000f), DelayType.DeltaTime);
         }
-    }
-    
-    private void FireBullet()
-    {
-        Bullet spawnedBullet = Instantiate(_bulletPrefab, _gunFirePoint.position, Quaternion.identity);
-        spawnedBullet.Init(_bulletSpeed, _playerController.ForwardDirection, _bulletLifespan, _bulletDamage);
     }
     
     private void AddHeat()

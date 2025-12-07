@@ -848,6 +848,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2175534141020389085, guid: 326648735f3c84449952f2a5c89d67d0, type: 3}
+      propertyPath: _offsetRadius
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4920614001628456924, guid: 326648735f3c84449952f2a5c89d67d0, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1275,9 +1279,11 @@ GameObject:
   m_Component:
   - component: {fileID: 7415479747217600199}
   - component: {fileID: 7415479747217600200}
+  - component: {fileID: 7415479747217600201}
+  - component: {fileID: 7415479747217600202}
   - component: {fileID: 3616904151045810155}
   - component: {fileID: 2428328115725794393}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1554,7 +1560,7 @@ MonoBehaviour:
   <RigidBody>k__BackingField: {fileID: 2428328115725794393}
   <Collider>k__BackingField: {fileID: 3616904151045810155}
   <IdleState>k__BackingField:
-    rid: 9137213361005002834
+    rid: 3678741783892983808
   <PatrolState>k__BackingField:
     rid: 9137213361005002833
   <AttackState>k__BackingField:
@@ -1562,6 +1568,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
+    - rid: 3678741783892983808
+      type: {class: BasicIdleState, ns: EnemyStates, asm: Assembly-CSharp}
+      data:
+        _duration: 1.5
     - rid: 9137213361005002832
       type: {class: SingleShotAttackState, ns: EnemyStates, asm: Assembly-CSharp}
       data:
@@ -1580,11 +1590,58 @@ MonoBehaviour:
         _rotationSpeed: 5
         _durationInterval: {x: 3, y: 6}
         _radius: 5
-    - rid: 9137213361005002834
-      type: {class: SpinIdleState, ns: EnemyStates, asm: Assembly-CSharp}
-      data:
-        _duration: 1
-        _spinSpeed: 35
+--- !u!114 &7415479747217600201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5208318412867270199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c39c48cb549926f4392541af36f7beb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <MaxHealth>k__BackingField: 1000000
+  <CurrentHealth>k__BackingField: 0
+  _useHealth: 1
+  OnDamageTaken:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7415479747217600202}
+        m_TargetAssemblyTypeName: HitNumberSpawner, Assembly-CSharp
+        m_MethodName: SpawnHitNumberOnSelf
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnInvincible:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &7415479747217600202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5208318412867270199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81d4ac02f59147246a34d8663adf3531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _hitNumberPrefab: {fileID: 17131460343296706, guid: 47755e36f9df1124cbb538339f78fdbb, type: 3}
+  _spawnOffset: {x: 0, y: 0}
+  _useRandomOffset: 1
+  _offsetRadius: 0.2
 --- !u!4 &7499829553581678198
 Transform:
   m_ObjectHideFlags: 0

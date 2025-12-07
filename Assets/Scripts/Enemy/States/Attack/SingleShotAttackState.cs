@@ -33,7 +33,7 @@ namespace EnemyStates
             _currentShootCooldownTimer += Time.deltaTime;
             if (_currentShootCooldownTimer >= _shootCooldown)
             {
-                _bulletSpawner.Spawn(_context.ForwardDirection, _bulletSpeed, _bulletLifespan, _bulletDamage);
+                _bulletSpawner.Spawn(_context.Team, _context.ForwardDirection, _bulletSpeed, _bulletLifespan, _bulletDamage);
                 _currentShootCount++;
                 _currentShootCooldownTimer = 0f;
             }
