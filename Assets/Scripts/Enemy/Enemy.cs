@@ -72,4 +72,9 @@ public class Enemy : MonoBehaviour, ITeam
 
         ForwardDirection = targetRotation * Vector2.right;
     }
+    
+    public void Kill()
+    {
+        Destroy(gameObject);
+    }
 }
