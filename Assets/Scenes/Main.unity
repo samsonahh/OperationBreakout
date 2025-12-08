@@ -2638,7 +2638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39c48cb549926f4392541af36f7beb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <MaxHealth>k__BackingField: 4
+  <MaxHealth>k__BackingField: 10000
   <CurrentHealth>k__BackingField: 0
   _useHealth: 1
   OnDamageTaken:
