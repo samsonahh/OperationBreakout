@@ -105,4 +105,27 @@ public static class Utils
 
         return $"{minutes}:{seconds:00}:{hundredths:00}";
     }
+    
+    /// <summary>
+    /// Checks if a given Transform is the parent itself OR a descendant of the specified parent Transform.
+    /// </summary>
+    /// <param name="transform">The Transform to check.</param>
+    /// <param name="parent">The potential parent or ancestor Transform.</param>
+    /// <returns>True if 'transform' is equal to 'parent' or a descendant of 'parent', otherwise false.</returns>
+    public static bool IsSelfOrDescendantOf(Transform transform, Transform parent)
+    {
+        if (transform == null || parent == null)
+        {
+            return false;
+        }
+
+        // 1. Check if the transform IS the parent itself
+        if (transform == parent)
+        {
+            return true;
+        }
+
+        // 2. Check if the transform is a child or descendant of the parent
+        return transform.IsChildOf(parent);
+    }
 }

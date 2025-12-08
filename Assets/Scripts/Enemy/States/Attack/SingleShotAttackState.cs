@@ -13,14 +13,14 @@ namespace EnemyStates
         [SerializeField] private float _bulletDamage = 1f;
         [SerializeField] private int _shootCount = 1;
         [SerializeField] private float _shootCooldown = 1f;
-
+        
         private int _currentShootCount;
         private float _currentShootCooldownTimer;
         
         private protected override void OnEnter()
         {
             _currentShootCount = 0;
-            _currentShootCooldownTimer = 0f;
+            _currentShootCooldownTimer = _shootCooldown; // shoot immediately
         }
 
         private protected override void OnExit()
@@ -30,13 +30,7 @@ namespace EnemyStates
 
         private protected override void OnUpdate()
         {
-            _currentShootCooldownTimer += Time.deltaTime;
-            if (_currentShootCooldownTimer >= _shootCooldown)
-            {
-                _bulletSpawner.Spawn(_context.Team, _context.ForwardDirection, _bulletSpeed, _bulletLifespan, _bulletDamage);
-                _currentShootCount++;
-                _currentShootCooldownTimer = 0f;
-            }
+            HandleShootingCooldown();
         }
 
         private protected override void OnFixedUpdate()
@@ -50,6 +44,17 @@ namespace EnemyStates
                 return _context.PatrolState;
             
             return null;
+        }
+
+        private void HandleShootingCooldown()
+        {
+            _currentShootCooldownTimer += Time.deltaTime;
+            if (_currentShootCooldownTimer >= _shootCooldown && _currentShootCount < _shootCount)
+            {
+                _bulletSpawner.Spawn(_context.Team, _context.ForwardDirection, _bulletSpeed, _bulletLifespan, _bulletDamage);
+                _currentShootCount++;
+                _currentShootCooldownTimer = 0f;
+            }
         }
     }
 }

@@ -1,15 +1,13 @@
-﻿using LBG;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace EnemyStates
 {
     [System.Serializable]
-    [SubclassPath(SubClassName = "Basic")]
-    public class BasicIdleState : IdleState
+    public class AttackWindupState : State<Enemy>
     {
-        [SerializeField] private float _duration = 1f;
+        [SerializeField] private float _duration = 0.25f;
 
-        private float _timer = 0f;
+        private float _timer;
         
         private protected override void OnEnter()
         {
@@ -33,12 +31,9 @@ namespace EnemyStates
 
         private protected override State<Enemy> GetTransition()
         {
-            if (_context.CurrentTarget != null)
-                return _context.AttackWindupState;
-            
             if (_timer >= _duration)
-                return _context.PatrolState;
-            
+                return _context.AttackState;
+
             return null;
         }
     }
