@@ -86,7 +86,14 @@ namespace EnemyStates
         private void OnPathFound(Path path)
         {
             _path = path.vectorPath;
-            _currentMoveDirection = (_path[1] - _context.transform.position).normalized;
+            if (path.vectorPath.Count == 0)
+            {
+                _currentMoveDirection = Vector3.zero;
+            }
+            else
+            {
+                _currentMoveDirection = (_path[1] - _context.transform.position).normalized;
+            }
         }
     }
 }

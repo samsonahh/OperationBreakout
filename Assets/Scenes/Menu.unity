@@ -350,9 +350,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219321765809458331, guid: e412c9b992ea2634c8f55932533b9f79, type: 3}
       propertyPath: m_text
-      value: 'Operation
-
-        Breakout'
+      value: More Human than Human
+      objectReference: {fileID: 0}
+    - target: {fileID: 5049946709943294409, guid: e412c9b992ea2634c8f55932533b9f79, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 5049946709943294409, guid: e412c9b992ea2634c8f55932533b9f79, type: 3}
       propertyPath: m_AnchoredPosition.y
