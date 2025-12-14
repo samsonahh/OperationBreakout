@@ -1,4 +1,5 @@
 using System;
+using Animancer;
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
@@ -7,10 +8,13 @@ public class PlayerGun : MonoBehaviour
     [SerializeField] private PlayerController _playerController;
     [SerializeField] private Health _playerHealth;
     [SerializeField] private BulletSpawner _bulletSpawner;
+    [SerializeField] private AnimancerComponent _animator;
 
     [field: Header("Shoot Config")]
     [field: SerializeField] public float ShootCooldown { get; private set; } = 1f;
 
+    [SerializeField] private AnimationClip _shootAnimationClip;
+    [SerializeField] private AnimationClip _idleAnimationClip;
     [SerializeField] private int _burstCount = 3;
     [SerializeField] private float _burstDelay = 0.1f;
     [SerializeField] private float _bulletSpeed = 15f;
@@ -36,6 +40,7 @@ public class PlayerGun : MonoBehaviour
     
     private void OnEnable()
     {
+        _animator.Play(_idleAnimationClip);
         InputManager.Instance.Attack += InputManager_Attack;
     }
 
@@ -89,6 +94,8 @@ public class PlayerGun : MonoBehaviour
         
         StartShootCooldown();
         AddHeat();
+
+        _animator.Play(_shootAnimationClip);
         
         OnShoot.Invoke();
     }
@@ -100,6 +107,8 @@ public class PlayerGun : MonoBehaviour
             _bulletSpawner.Spawn(_playerController.Team, _playerController.ForwardDirection, _bulletSpeed, _bulletLifespan, _bulletDamage);
             await UniTask.Delay((int)(_burstDelay * 1000f), DelayType.DeltaTime);
         }
+
+        _animator.Play(_idleAnimationClip);
     }
     
     private void AddHeat()

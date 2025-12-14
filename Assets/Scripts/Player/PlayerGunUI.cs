@@ -8,7 +8,8 @@ public class PlayerGunUI : MonoBehaviour
     [Header("References")]
     [SerializeField] private PlayerGun _playerGun;
     [SerializeField] private Slider _shootCooldownBar;
-    [SerializeField] private Slider _heatBar;
+    [SerializeField] private Slider _leftHeatBar;
+    [SerializeField] private Slider _rightHeatBar;
     
     [Header("Config")]
     [SerializeField] private float _shootCooldownShakeDuration = 0.3f;
@@ -19,12 +20,14 @@ public class PlayerGunUI : MonoBehaviour
     [SerializeField] private int _heatOverfillShakeFrequency = 20;
 
     private Vector2 _shootCooldownBarStartPosition;
-    private Vector2 _heatBarStartPosition;
+    private Vector2 _rightHeatBarStartPosition;
+    private Vector2 _leftHeatBarStartPosition;
     
     private void Awake()
     {
         _shootCooldownBarStartPosition = _shootCooldownBar.transform.localPosition;
-        _heatBarStartPosition = _heatBar.transform.localPosition;
+        _leftHeatBarStartPosition = _leftHeatBar.transform.localPosition;
+        _rightHeatBarStartPosition = _rightHeatBar.transform.localPosition;
     }
 
     private void Start()
@@ -62,7 +65,8 @@ public class PlayerGunUI : MonoBehaviour
             return;
 
         float barValue = _playerGun.OverheatTimer / _playerGun.OverheatDuration;
-        _heatBar.value = 1f - barValue;
+        _leftHeatBar.value = 1f - barValue;
+        _rightHeatBar.value = 1f - barValue;
     }
 
     private void HandleHeatFillUpBar()
@@ -71,7 +75,8 @@ public class PlayerGunUI : MonoBehaviour
             return;
         
         float barValue = _playerGun.CurrentHeat / _playerGun.MaxHeat;
-        _heatBar.value = barValue;
+        _leftHeatBar.value = barValue;
+        _rightHeatBar.value = barValue;
     }
 
     private void PlayerGun_OnHeatAdded(float addedHeat)
@@ -81,14 +86,23 @@ public class PlayerGunUI : MonoBehaviour
 
     private void PlayerGun_OnOverheat()
     {
-        _heatBar.transform.DOKill();
-        _heatBar.transform.localPosition = _heatBarStartPosition;
+        _leftHeatBar.transform.DOKill();
+        _leftHeatBar.transform.localPosition = _leftHeatBarStartPosition;
         
-        _heatBar.transform.DOShakePosition(
+        _leftHeatBar.transform.DOShakePosition(
             _heatOverfillShakeDuration, 
             _heatOverfillShakeStrength,
             _heatOverfillShakeFrequency
             );
+        
+        _rightHeatBar.transform.DOKill();
+        _rightHeatBar.transform.localPosition = _rightHeatBarStartPosition;
+        
+        _rightHeatBar.transform.DOShakePosition(
+            _heatOverfillShakeDuration, 
+            _heatOverfillShakeStrength,
+            _heatOverfillShakeFrequency
+        );
     }
 
     private void PlayerGun_OnFailShoot()

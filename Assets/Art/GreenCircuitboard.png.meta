@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: e36a61acc69faea4a8a1e85813d203c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4000015662824208470
+    second: GreenCircuitboard_0
+  - first:
+      213: -2099078567162576685
+    second: GreenCircuitboard_1
+  - first:
+      213: -7739581812424884724
+    second: GreenCircuitboard_2
+  - first:
+      213: -1269533701704467893
+    second: GreenCircuitboard_3
+  - first:
+      213: -9004286015195657030
+    second: GreenCircuitboard_4
+  - first:
+      213: 7695021907817720384
+    second: GreenCircuitboard_5
+  - first:
+      213: 774246358281852864
+    second: GreenCircuitboard_6
+  - first:
+      213: 3208334705467345536
+    second: GreenCircuitboard_7
+  - first:
+      213: 5229635284754351994
+    second: GreenCircuitboard_8
+  - first:
+      213: 7651888542763806241
+    second: GreenCircuitboard_9
+  - first:
+      213: 3802035024011357817
+    second: GreenCircuitboard_10
+  - first:
+      213: -468825849406580704
+    second: GreenCircuitboard_11
+  - first:
+      213: -3063349639470539792
+    second: GreenCircuitboard_12
+  - first:
+      213: 2045295831224318904
+    second: GreenCircuitboard_13
+  - first:
+      213: 955971051674222993
+    second: GreenCircuitboard_14
+  - first:
+      213: -3596185608120151226
+    second: GreenCircuitboard_15
+  - first:
+      213: 2375604227174169563
+    second: GreenCircuitboard_16
+  - first:
+      213: 3021056082432354934
+    second: GreenCircuitboard_17
+  - first:
+      213: -9115648674658926608
+    second: GreenCircuitboard_18
+  - first:
+      213: -3806726634800001076
+    second: GreenCircuitboard_19
+  - first:
+      213: 6072550673051950799
+    second: GreenCircuitboard_20
+  - first:
+      213: -9084908304139569791
+    second: GreenCircuitboard_21
+  - first:
+      213: 8236016294634581283
+    second: GreenCircuitboard_22
+  - first:
+      213: -6516286581165843711
+    second: GreenCircuitboard_23
+  - first:
+      213: 1848747363161984533
+    second: GreenCircuitboard_24
+  - first:
+      213: 2146661181844757337
+    second: GreenCircuitboard_25
+  - first:
+      213: 5228131130587875791
+    second: GreenCircuitboard_26
+  - first:
+      213: 1942306856909595017
+    second: GreenCircuitboard_27
+  - first:
+      213: 7787287002077760909
+    second: GreenCircuitboard_28
+  - first:
+      213: 4865088904781101727
+    second: GreenCircuitboard_29
+  - first:
+      213: -4822325913617428414
+    second: GreenCircuitboard_30
+  - first:
+      213: -2287369430217509112
+    second: GreenCircuitboard_31
+  - first:
+      213: -6578086481272794176
+    second: GreenCircuitboard_32
+  - first:
+      213: 8279136022052261598
+    second: GreenCircuitboard_33
+  - first:
+      213: 3268431368319807237
+    second: GreenCircuitboard_34
+  - first:
+      213: -4706559460205270994
+    second: GreenCircuitboard_35
+  - first:
+      213: 6330777569446501744
+    second: GreenCircuitboard_36
+  - first:
+      213: 5012892766407412539
+    second: GreenCircuitboard_37
+  - first:
+      213: -8718543718209351820
+    second: GreenCircuitboard_38
+  - first:
+      213: 3012182359135817811
+    second: GreenCircuitboard_39
+  - first:
+      213: -5949072427829088740
+    second: GreenCircuitboard_40
+  - first:
+      213: -8893546169513822801
+    second: GreenCircuitboard_41
+  - first:
+      213: 4459979949355956764
+    second: GreenCircuitboard_42
+  - first:
+      213: 7028217038806627031
+    second: GreenCircuitboard_43
+  - first:
+      213: -592158638672754077
+    second: GreenCircuitboard_44
+  - first:
+      213: -8789283638481990917
+    second: GreenCircuitboard_45
+  - first:
+      213: 1396428259443091412
+    second: GreenCircuitboard_46
+  - first:
+      213: 4065742325193004288
+    second: GreenCircuitboard_47
+  - first:
+      213: 4126915758177811902
+    second: GreenCircuitboard_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreenCircuitboard_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658b2a66d09e28730800000000000000
+      internalID: 4000015662824208470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 184
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d083a02a239ed2e0800000000000000
+      internalID: -2099078567162576685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 198
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0e3750095b779490800000000000000
+      internalID: -7739581812424884724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 140
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ab48713d5b16ee0800000000000000
+      internalID: -1269533701704467893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 245
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abcce3073995a0380800000000000000
+      internalID: -9004286015195657030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_5
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 176
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ae25ab7a53aca60800000000000000
+      internalID: 7695021907817720384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 176
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c79702f5fcaeba00800000000000000
+      internalID: 774246358281852864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 245
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a40f78a6b468c20800000000000000
+      internalID: 3208334705467345536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 140
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77c1ac6595639840800000000000000
+      internalID: 5229635284754351994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 198
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e61549618f03a60800000000000000
+      internalID: 7651888542763806241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 184
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e6ac5d5ba83c430800000000000000
+      internalID: 3802035024011357817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 191
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0289998bf556e79f0800000000000000
+      internalID: -468825849406580704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb9984bbbbcc75d0800000000000000
+      internalID: -3063349639470539792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb76b8d8b9526c10800000000000000
+      internalID: 2045295831224318904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19149964b9a444d00800000000000000
+      internalID: 955971051674222993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 146
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64350a92e38c71ec0800000000000000
+      internalID: -3596185608120151226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 35
+        width: 90
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdbf1a74577d7f020800000000000000
+      internalID: 2375604227174169563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_17
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 146
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ae9ef2082fce920800000000000000
+      internalID: 3021056082432354934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_18
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ffb1b1c3d5be7180800000000000000
+      internalID: -9115648674658926608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_19
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 160
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf4ab76b4acb2bc0800000000000000
+      internalID: -3806726634800001076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_20
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 145
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce12d3d9a8064450800000000000000
+      internalID: 6072550673051950799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185b3c2080cebe180800000000000000
+      internalID: -9084908304139569791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_22
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32de5060f253c4270800000000000000
+      internalID: 8236016294634581283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_23
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10b17f211ef7195a0800000000000000
+      internalID: -6516286581165843711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_24
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 137
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ec5b48ee118a910800000000000000
+      internalID: 1848747363161984533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b1afca8f87acd10800000000000000
+      internalID: 2146661181844757337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc90add309d0e8840800000000000000
+      internalID: 5228131130587875791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_27
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981e6eaabc574fa10800000000000000
+      internalID: 1942306856909595017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 75
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d8cd20540021c60800000000000000
+      internalID: 7787287002077760909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9afb222594448340800000000000000
+      internalID: 4865088904781101727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2401caf9128a31db0800000000000000
+      internalID: -4822325913617428414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 75
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8073cc94f91a140e0800000000000000
+      internalID: -2287369430217509112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_32
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c39fed8231f5b4a0800000000000000
+      internalID: -6578086481272794176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_33
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 83
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edec099e85665e270800000000000000
+      internalID: 8279136022052261598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_34
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 106
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f2279330dcb5d20800000000000000
+      internalID: 3268431368319807237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28e53c7b11feaeb0800000000000000
+      internalID: -4706559460205270994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d9ed258a07bd750800000000000000
+      internalID: 6330777569446501744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bc6de596f519540800000000000000
+      internalID: 5012892766407412539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_38
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47f0b6d5ea2810780800000000000000
+      internalID: -8718543718209351820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_39
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3501dfa75eb6dc920800000000000000
+      internalID: 3012182359135817811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_40
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e2d2c7526a07da0800000000000000
+      internalID: -5949072427829088740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_41
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 35
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5b79cf0e6c39480800000000000000
+      internalID: -8893546169513822801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_42
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1af9ba422805ed30800000000000000
+      internalID: 4459979949355956764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2ba62e82e398160800000000000000
+      internalID: 7028217038806627031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_44
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a4b330bda38c7f0800000000000000
+      internalID: -592158638672754077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_45
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfac0223911360680800000000000000
+      internalID: -8789283638481990917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_46
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d72c667a1c116310800000000000000
+      internalID: 1396428259443091412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_47
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00556618a1b6c6830800000000000000
+      internalID: 4065742325193004288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenCircuitboard_48
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd76284400c54930800000000000000
+      internalID: 4126915758177811902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GreenCircuitboard_0: 4000015662824208470
+      GreenCircuitboard_1: -2099078567162576685
+      GreenCircuitboard_10: 3802035024011357817
+      GreenCircuitboard_11: -468825849406580704
+      GreenCircuitboard_12: -3063349639470539792
+      GreenCircuitboard_13: 2045295831224318904
+      GreenCircuitboard_14: 955971051674222993
+      GreenCircuitboard_15: -3596185608120151226
+      GreenCircuitboard_16: 2375604227174169563
+      GreenCircuitboard_17: 3021056082432354934
+      GreenCircuitboard_18: -9115648674658926608
+      GreenCircuitboard_19: -3806726634800001076
+      GreenCircuitboard_2: -7739581812424884724
+      GreenCircuitboard_20: 6072550673051950799
+      GreenCircuitboard_21: -9084908304139569791
+      GreenCircuitboard_22: 8236016294634581283
+      GreenCircuitboard_23: -6516286581165843711
+      GreenCircuitboard_24: 1848747363161984533
+      GreenCircuitboard_25: 2146661181844757337
+      GreenCircuitboard_26: 5228131130587875791
+      GreenCircuitboard_27: 1942306856909595017
+      GreenCircuitboard_28: 7787287002077760909
+      GreenCircuitboard_29: 4865088904781101727
+      GreenCircuitboard_3: -1269533701704467893
+      GreenCircuitboard_30: -4822325913617428414
+      GreenCircuitboard_31: -2287369430217509112
+      GreenCircuitboard_32: -6578086481272794176
+      GreenCircuitboard_33: 8279136022052261598
+      GreenCircuitboard_34: 3268431368319807237
+      GreenCircuitboard_35: -4706559460205270994
+      GreenCircuitboard_36: 6330777569446501744
+      GreenCircuitboard_37: 5012892766407412539
+      GreenCircuitboard_38: -8718543718209351820
+      GreenCircuitboard_39: 3012182359135817811
+      GreenCircuitboard_4: -9004286015195657030
+      GreenCircuitboard_40: -5949072427829088740
+      GreenCircuitboard_41: -8893546169513822801
+      GreenCircuitboard_42: 4459979949355956764
+      GreenCircuitboard_43: 7028217038806627031
+      GreenCircuitboard_44: -592158638672754077
+      GreenCircuitboard_45: -8789283638481990917
+      GreenCircuitboard_46: 1396428259443091412
+      GreenCircuitboard_47: 4065742325193004288
+      GreenCircuitboard_48: 4126915758177811902
+      GreenCircuitboard_5: 7695021907817720384
+      GreenCircuitboard_6: 774246358281852864
+      GreenCircuitboard_7: 3208334705467345536
+      GreenCircuitboard_8: 5229635284754351994
+      GreenCircuitboard_9: 7651888542763806241
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

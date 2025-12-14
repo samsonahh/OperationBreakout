@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: bb73ff65fdc12d54f8ef7a43c299749e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3106475004605666343
+    second: RustyCircuitboard_0
+  - first:
+      213: -7062249031466278556
+    second: RustyCircuitboard_1
+  - first:
+      213: -3992232051798419144
+    second: RustyCircuitboard_2
+  - first:
+      213: -3744805930100702174
+    second: RustyCircuitboard_3
+  - first:
+      213: 6821741534414422785
+    second: RustyCircuitboard_4
+  - first:
+      213: 2570655440423733492
+    second: RustyCircuitboard_5
+  - first:
+      213: 4952096633551773559
+    second: RustyCircuitboard_6
+  - first:
+      213: 3261606812361239019
+    second: RustyCircuitboard_7
+  - first:
+      213: 6529244377733732383
+    second: RustyCircuitboard_8
+  - first:
+      213: 4726368531268933975
+    second: RustyCircuitboard_9
+  - first:
+      213: -3614761767203394126
+    second: RustyCircuitboard_10
+  - first:
+      213: 211731511949260184
+    second: RustyCircuitboard_11
+  - first:
+      213: -9055626090217875428
+    second: RustyCircuitboard_12
+  - first:
+      213: 714972489379518254
+    second: RustyCircuitboard_13
+  - first:
+      213: 5829994510615391012
+    second: RustyCircuitboard_14
+  - first:
+      213: -3619596727714516554
+    second: RustyCircuitboard_15
+  - first:
+      213: 3931869923017304588
+    second: RustyCircuitboard_16
+  - first:
+      213: -8418927126759440259
+    second: RustyCircuitboard_17
+  - first:
+      213: -7051837028443349931
+    second: RustyCircuitboard_18
+  - first:
+      213: 2455819794352023773
+    second: RustyCircuitboard_19
+  - first:
+      213: 2797217887466151038
+    second: RustyCircuitboard_20
+  - first:
+      213: 2628307197767708228
+    second: RustyCircuitboard_21
+  - first:
+      213: 5958079391507278248
+    second: RustyCircuitboard_22
+  - first:
+      213: -3193828521686414246
+    second: RustyCircuitboard_23
+  - first:
+      213: -3178238017617737950
+    second: RustyCircuitboard_24
+  - first:
+      213: -1589978785177813924
+    second: RustyCircuitboard_25
+  - first:
+      213: -3726697541632114735
+    second: RustyCircuitboard_26
+  - first:
+      213: 4051947192909892656
+    second: RustyCircuitboard_27
+  - first:
+      213: 82018514173539499
+    second: RustyCircuitboard_28
+  - first:
+      213: -2914384641553884341
+    second: RustyCircuitboard_29
+  - first:
+      213: -5834594202370082064
+    second: RustyCircuitboard_30
+  - first:
+      213: -7000367544096752962
+    second: RustyCircuitboard_31
+  - first:
+      213: -5495807258894776318
+    second: RustyCircuitboard_32
+  - first:
+      213: 3387062725642361725
+    second: RustyCircuitboard_33
+  - first:
+      213: -6700213346018676543
+    second: RustyCircuitboard_34
+  - first:
+      213: -4460325909299080881
+    second: RustyCircuitboard_35
+  - first:
+      213: -6537177592293540479
+    second: RustyCircuitboard_36
+  - first:
+      213: -3896794630962937645
+    second: RustyCircuitboard_37
+  - first:
+      213: -5492087420074409646
+    second: RustyCircuitboard_38
+  - first:
+      213: -5519950599462868628
+    second: RustyCircuitboard_39
+  - first:
+      213: -8831231137035930122
+    second: RustyCircuitboard_40
+  - first:
+      213: 8771797223824874644
+    second: RustyCircuitboard_41
+  - first:
+      213: -6249133413053108149
+    second: RustyCircuitboard_42
+  - first:
+      213: 8004438629564431059
+    second: RustyCircuitboard_43
+  - first:
+      213: -7550958738165424907
+    second: RustyCircuitboard_44
+  - first:
+      213: -3463180185050190201
+    second: RustyCircuitboard_45
+  - first:
+      213: 1310040071122828767
+    second: RustyCircuitboard_46
+  - first:
+      213: 2943823181786247276
+    second: RustyCircuitboard_47
+  - first:
+      213: -3941120349707995513
+    second: RustyCircuitboard_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RustyCircuitboard_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db69de217593e4d0800000000000000
+      internalID: -3106475004605666343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 184
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4612b1c5ce9ddfd90800000000000000
+      internalID: -7062249031466278556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 198
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83950a3c91eb898c0800000000000000
+      internalID: -3992232051798419144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 140
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224429fe8d6c70cc0800000000000000
+      internalID: -3744805930100702174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 245
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103cc4c48c1bbae50800000000000000
+      internalID: 6821741534414422785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_5
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 176
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8c16ec08dcca320800000000000000
+      internalID: 2570655440423733492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 176
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77fd240a6a169b440800000000000000
+      internalID: 4952096633551773559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 245
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be929c77d1e834d20800000000000000
+      internalID: 3261606812361239019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 140
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18198a0b298c9a50800000000000000
+      internalID: 6529244377733732383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 198
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7599ed7432f679140800000000000000
+      internalID: 4726368531268933975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 184
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdad261359c5ddc0800000000000000
+      internalID: -3614761767203394126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 191
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895fd7530b830f200800000000000000
+      internalID: 211731511949260184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c18ddc9bc04f35280800000000000000
+      internalID: -9055626090217875428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2794a5e0b71ce900800000000000000
+      internalID: 714972489379518254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42b25b76e1d48e050800000000000000
+      internalID: 5829994510615391012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 146
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b1f86e14fb94cdc0800000000000000
+      internalID: -3619596727714516554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 35
+        width: 90
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a2d70fcdec09630800000000000000
+      internalID: 3931869923017304588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_17
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 146
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d708a933266f92b80800000000000000
+      internalID: -8418927126759440259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_18
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55c10b9b597d22e90800000000000000
+      internalID: -7051837028443349931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_19
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 160
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8a9ba6713d41220800000000000000
+      internalID: 2455819794352023773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_20
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 145
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cd9cd29d6b1d620800000000000000
+      internalID: 2797217887466151038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44eeb83987f997420800000000000000
+      internalID: 2628307197767708228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_22
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9ed5aa3a95fa250800000000000000
+      internalID: 5958079391507278248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_23
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5cce5391ed3da3d0800000000000000
+      internalID: -3193828521686414246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_24
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 137
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227c04cac51a4e3d0800000000000000
+      internalID: -3178238017617737950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5cb11d08b24fe9e0800000000000000
+      internalID: -1589978785177813924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df32bda45c184cc0800000000000000
+      internalID: -3726697541632114735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_27
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c090af0886b3830800000000000000
+      internalID: 4051947192909892656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 75
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4b1527763632100800000000000000
+      internalID: 82018514173539499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4b935d0c960e87d0800000000000000
+      internalID: -2914384641553884341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa7d276c7b570fa0800000000000000
+      internalID: -5834594202370082064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 75
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eba70f4eec2b9de90800000000000000
+      internalID: -7000367544096752962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_32
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20840938a68fab3b0800000000000000
+      internalID: -5495807258894776318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_33
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 83
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b11e18a93410f20800000000000000
+      internalID: 3387062725642361725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_34
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 106
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0b937067f0403a0800000000000000
+      internalID: -6700213346018676543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41d1c1a73db912c0800000000000000
+      internalID: -4460325909299080881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18d33b18d974745a0800000000000000
+      internalID: -6537177592293540479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d00ec2ededcbe9c0800000000000000
+      internalID: -3896794630962937645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_38
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 251c21bf69f28c3b0800000000000000
+      internalID: -5492087420074409646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_39
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69af4dfc223563b0800000000000000
+      internalID: -5519950599462868628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_40
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5ba9b121a217580800000000000000
+      internalID: -8831231137035930122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_41
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 35
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49cd6df991fabb970800000000000000
+      internalID: 8771797223824874644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_42
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40f1f8254e9649a0800000000000000
+      internalID: -6249133413053108149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da3a95368a751f60800000000000000
+      internalID: 8004438629564431059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_44
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc940ac80b953790800000000000000
+      internalID: -7550958738165424907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_45
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e69ec68ff40ffc0800000000000000
+      internalID: -3463180185050190201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_46
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddbdc8f0823e2210800000000000000
+      internalID: 1310040071122828767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_47
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60fde7369f8ad820800000000000000
+      internalID: 2943823181786247276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RustyCircuitboard_48
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78677924ce35e49c0800000000000000
+      internalID: -3941120349707995513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      RustyCircuitboard_0: -3106475004605666343
+      RustyCircuitboard_1: -7062249031466278556
+      RustyCircuitboard_10: -3614761767203394126
+      RustyCircuitboard_11: 211731511949260184
+      RustyCircuitboard_12: -9055626090217875428
+      RustyCircuitboard_13: 714972489379518254
+      RustyCircuitboard_14: 5829994510615391012
+      RustyCircuitboard_15: -3619596727714516554
+      RustyCircuitboard_16: 3931869923017304588
+      RustyCircuitboard_17: -8418927126759440259
+      RustyCircuitboard_18: -7051837028443349931
+      RustyCircuitboard_19: 2455819794352023773
+      RustyCircuitboard_2: -3992232051798419144
+      RustyCircuitboard_20: 2797217887466151038
+      RustyCircuitboard_21: 2628307197767708228
+      RustyCircuitboard_22: 5958079391507278248
+      RustyCircuitboard_23: -3193828521686414246
+      RustyCircuitboard_24: -3178238017617737950
+      RustyCircuitboard_25: -1589978785177813924
+      RustyCircuitboard_26: -3726697541632114735
+      RustyCircuitboard_27: 4051947192909892656
+      RustyCircuitboard_28: 82018514173539499
+      RustyCircuitboard_29: -2914384641553884341
+      RustyCircuitboard_3: -3744805930100702174
+      RustyCircuitboard_30: -5834594202370082064
+      RustyCircuitboard_31: -7000367544096752962
+      RustyCircuitboard_32: -5495807258894776318
+      RustyCircuitboard_33: 3387062725642361725
+      RustyCircuitboard_34: -6700213346018676543
+      RustyCircuitboard_35: -4460325909299080881
+      RustyCircuitboard_36: -6537177592293540479
+      RustyCircuitboard_37: -3896794630962937645
+      RustyCircuitboard_38: -5492087420074409646
+      RustyCircuitboard_39: -5519950599462868628
+      RustyCircuitboard_4: 6821741534414422785
+      RustyCircuitboard_40: -8831231137035930122
+      RustyCircuitboard_41: 8771797223824874644
+      RustyCircuitboard_42: -6249133413053108149
+      RustyCircuitboard_43: 8004438629564431059
+      RustyCircuitboard_44: -7550958738165424907
+      RustyCircuitboard_45: -3463180185050190201
+      RustyCircuitboard_46: 1310040071122828767
+      RustyCircuitboard_47: 2943823181786247276
+      RustyCircuitboard_48: -3941120349707995513
+      RustyCircuitboard_5: 2570655440423733492
+      RustyCircuitboard_6: 4952096633551773559
+      RustyCircuitboard_7: 3261606812361239019
+      RustyCircuitboard_8: 6529244377733732383
+      RustyCircuitboard_9: 4726368531268933975
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

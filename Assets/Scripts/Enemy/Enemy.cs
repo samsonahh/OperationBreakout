@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Animancer;
 using UnityEngine;
 using EnemyStates;
 using LBG;
@@ -15,6 +16,7 @@ public class Enemy : MonoBehaviour, ITeam
     [field: SerializeField] public CircleCollider2D HitBoxCollider { get; private set; }
     [field: SerializeField] public AIPath AIPath { get; private set; }
     [field: SerializeField] public Seeker Seeker { get; private set; }
+    [field: SerializeField] public AnimancerComponent Animator { get; private set; }
 
     public Team Team { get; set; } = Team.Enemy;
     
@@ -39,6 +41,10 @@ public class Enemy : MonoBehaviour, ITeam
     [field: TabGroup("States", "Attack")]
     [field: SerializeReference, SubclassSelector]
     public AttackState AttackState { get; private set; }
+    
+    [field: TabGroup("States", "Death")]
+    [field: SerializeField]
+    public DeathState DeathState { get; private set; }
     
     public Vector2 ForwardDirection { get; private set; }
     
@@ -104,6 +110,7 @@ public class Enemy : MonoBehaviour, ITeam
         ChaseState.Init(_stateMachine, this);
         AttackWindupState.Init(_stateMachine, this);
         AttackState.Init(_stateMachine, this);
+        DeathState.Init(_stateMachine, this);
         
         _stateMachine.ChangeState(IdleState, true);
     }
@@ -234,6 +241,6 @@ public class Enemy : MonoBehaviour, ITeam
     
     public void Kill()
     {
-        Destroy(gameObject);
+        _stateMachine.ChangeState(DeathState);
     }
 }

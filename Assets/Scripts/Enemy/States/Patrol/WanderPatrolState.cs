@@ -22,6 +22,8 @@ namespace EnemyStates
         
         private protected override void OnEnter()
         {
+            _context.Animator.Play(_animationClip);
+            
             _duration = UnityEngine.Random.Range(_durationInterval.x, _durationInterval.y);
             _timer = 0f;
             

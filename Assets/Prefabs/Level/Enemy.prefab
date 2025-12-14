@@ -25,13 +25,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 402091369583452011}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0.079, y: 0, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 2448021026144450181}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!212 &7620367241655800167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -75,8 +75,8 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_SortingOrder: -1
+  m_Sprite: {fileID: 3428236488772698385, guid: 62fa5ff27abf8d9489976e444a39f3ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -87,7 +87,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &5353283980645272439
+--- !u!1 &5609169269300368728
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -95,86 +95,29 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8430919724374457518}
-  - component: {fileID: 7014197462137398097}
+  - component: {fileID: 6832347689821422241}
   m_Layer: 0
-  m_Name: Gun
+  m_Name: GunFirePointRight
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 4422084297763085224, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8430919724374457518
+--- !u!4 &6832347689821422241
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5353283980645272439}
+  m_GameObject: {fileID: 5609169269300368728}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.25, y: 0, z: 0}
-  m_LocalScale: {x: 0.2073, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.336, y: -0.323, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 8750999058495917697}
+  m_Children: []
   m_Father: {fileID: 2448021026144450181}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!212 &7014197462137398097
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5353283980645272439}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -1
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.5660378, g: 0.08276967, b: 0.08276967, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6351964576637134548
 GameObject:
   m_ObjectHideFlags: 0
@@ -185,7 +128,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8750999058495917697}
   m_Layer: 0
-  m_Name: GunFirePoint
+  m_Name: GunFirePointLeft
   m_TagString: Untagged
   m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -199,12 +142,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6351964576637134548}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: -0, y: -0.471, z: 0}
-  m_LocalScale: {x: 1, y: 4.823925, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.336, y: 0.323, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8430919724374457518}
+  m_Father: {fileID: 2448021026144450181}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8172366358956479628
 GameObject:
@@ -222,6 +165,9 @@ GameObject:
   - component: {fileID: 4203633372484665450}
   - component: {fileID: 7786573527834624043}
   - component: {fileID: 3130710826867192302}
+  - component: {fileID: 4317591305849905695}
+  - component: {fileID: 3489708449369424437}
+  - component: {fileID: 7492090407793283350}
   m_Layer: 7
   m_Name: Enemy
   m_TagString: Untagged
@@ -243,8 +189,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2844832253631002766}
-  - {fileID: 8430919724374457518}
   - {fileID: 5961942031943211378}
+  - {fileID: 8750999058495917697}
+  - {fileID: 6832347689821422241}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7532257157558539328
@@ -263,37 +210,51 @@ MonoBehaviour:
   <HitBoxCollider>k__BackingField: {fileID: 6688117599269896479}
   <AIPath>k__BackingField: {fileID: 3130710826867192302}
   <Seeker>k__BackingField: {fileID: 7786573527834624043}
+  <Animator>k__BackingField: {fileID: 3489708449369424437}
   <IdleState>k__BackingField:
     rid: 9137213406576115791
   <PatrolState>k__BackingField:
     rid: 9137213361005002833
   <ChaseState>k__BackingField:
-    _chaseSpeed: 2
+    _speed: 2
+    _rotationSpeed: 5
+    _maxDuration: 5
+    _minDuration: 2
+    _distanceThreshold: 5
+    _loseInterestDistance: 10
+    _animationClip: {fileID: 7400000, guid: a76257b30e1237e4f827006f6685dbb8, type: 2}
   <AttackWindupState>k__BackingField:
     _duration: 0.25
     _lookAtTargetRotationSpeed: 10
   <AttackState>k__BackingField:
-    rid: 9137213361005002832
+    rid: 3678741941827403855
+  <DeathState>k__BackingField:
+    _animationClip: {fileID: 7400000, guid: 2c607a50f0e5d4246934eebf73175d92, type: 2}
   <DetectionConeAngle>k__BackingField: 45
   <DetectionConeSteps>k__BackingField: 3
   <DetectionMaxDistance>k__BackingField: 5
   references:
     version: 2
     RefIds:
-    - rid: 9137213361005002832
-      type: {class: SingleShotAttackState, ns: EnemyStates, asm: Assembly-CSharp}
+    - rid: 3678741941827403855
+      type: {class: DoubleShotAttackState, ns: EnemyStates, asm: Assembly-CSharp}
       data:
-        _bulletSpawner:
+        _rightBulletSpawner:
+          _bulletPrefab: {fileID: 2863222341292781988, guid: 5a26423dbb0af4446ada7870719bed9f, type: 3}
+          _spawnPoint: {fileID: 6832347689821422241}
+        _leftBulletSpawner:
           _bulletPrefab: {fileID: 2863222341292781988, guid: 5a26423dbb0af4446ada7870719bed9f, type: 3}
           _spawnPoint: {fileID: 8750999058495917697}
         _bulletSpeed: 10
         _bulletLifespan: 5
         _bulletDamage: 1
-        _shootCount: 1
-        _shootCooldown: 1
+        _shootCount: 2
+        _shootCooldown: 0.25
+        _animationClip: {fileID: 7400000, guid: c7cd7423a21acd24686fc24e6105247d, type: 2}
     - rid: 9137213361005002833
       type: {class: WanderPatrolState, ns: EnemyStates, asm: Assembly-CSharp}
       data:
+        _animationClip: {fileID: 7400000, guid: a76257b30e1237e4f827006f6685dbb8, type: 2}
         _moveSpeed: 2
         _rotationSpeed: 5
         _durationInterval: {x: 3, y: 6}
@@ -301,6 +262,7 @@ MonoBehaviour:
     - rid: 9137213406576115791
       type: {class: SpinIdleState, ns: EnemyStates, asm: Assembly-CSharp}
       data:
+        _animationClip: {fileID: 7400000, guid: a76257b30e1237e4f827006f6685dbb8, type: 2}
         _duration: 1
         _spinSpeed: 5
 --- !u!114 &4260232174679312381
@@ -500,6 +462,57 @@ MonoBehaviour:
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
+--- !u!95 &4317591305849905695
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172366358956479628}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5784b0caedc31b446ae7c62cd29a04ea, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3489708449369424437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172366358956479628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ad50f81b1d25c441943c37a89ba23f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _Animator: {fileID: 4317591305849905695}
+  _Transitions: {fileID: 0}
+  _ActionOnDisable: 0
+--- !u!114 &7492090407793283350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172366358956479628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 189bbc288b40c5e4bbc9259cd1bc98c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _health: {fileID: 4260232174679312381}
+  _scoreToAdd: 5000
 --- !u!1 &8197323219212180529
 GameObject:
   m_ObjectHideFlags: 0
@@ -567,4 +580,4 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
+  m_Radius: 0.25

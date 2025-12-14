@@ -9,6 +9,9 @@ namespace EnemyStates
         [SerializeField] private float _rotationSpeed = 5f;
         [SerializeField] private float _maxDuration = 5f;
         [SerializeField] private float _minDuration = 2f;
+        [SerializeField] private float _distanceThreshold = 5f;
+        [SerializeField] private float _loseInterestDistance = 15f;
+        [SerializeField] private AnimationClip _animationClip;
         
         private Transform _target;
         public void SetTarget(Transform target) => _target = target;
@@ -18,6 +21,8 @@ namespace EnemyStates
         
         private protected override void OnEnter()
         {
+            _context.Animator.Play(_animationClip);
+            
             _context.AIPath.canMove = true;
             _context.AIPath.destination = _target.position;
             _context.AIPath.maxSpeed = _speed;
@@ -50,6 +55,15 @@ namespace EnemyStates
             if (_target == null)
                 return _context.IdleState;
 
+            if (Vector2.Distance(_context.transform.position, _target.position) <= _distanceThreshold)
+            {
+                _context.AttackWindupState.SetLockOnTarget(_target);
+                return _context.AttackWindupState;
+            }
+            
+            if (Vector2.Distance(_context.transform.position, _target.position) >= _loseInterestDistance)
+                return _context.IdleState;
+            
             if (_timer >= _duration)
             {
                 _context.AttackWindupState.SetLockOnTarget(_target);

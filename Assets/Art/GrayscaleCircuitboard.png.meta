@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: 038de1e75a3f67e458bbdc70111652b1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2747482508028587090
+    second: GrayscaleCircuitboard_0
+  - first:
+      213: -1544524554097068146
+    second: GrayscaleCircuitboard_1
+  - first:
+      213: -3506084711539577895
+    second: GrayscaleCircuitboard_2
+  - first:
+      213: 1143283889608100703
+    second: GrayscaleCircuitboard_3
+  - first:
+      213: -3050242148941313447
+    second: GrayscaleCircuitboard_4
+  - first:
+      213: -4237416139417114572
+    second: GrayscaleCircuitboard_5
+  - first:
+      213: 3066806376540056215
+    second: GrayscaleCircuitboard_6
+  - first:
+      213: 238542303276296261
+    second: GrayscaleCircuitboard_7
+  - first:
+      213: 1064291400066979203
+    second: GrayscaleCircuitboard_8
+  - first:
+      213: -5640422649959075709
+    second: GrayscaleCircuitboard_9
+  - first:
+      213: 4542151567662264520
+    second: GrayscaleCircuitboard_10
+  - first:
+      213: 3713507713413384772
+    second: GrayscaleCircuitboard_11
+  - first:
+      213: -5932781932765375121
+    second: GrayscaleCircuitboard_12
+  - first:
+      213: -8018321701854982867
+    second: GrayscaleCircuitboard_13
+  - first:
+      213: -2038200606085807939
+    second: GrayscaleCircuitboard_14
+  - first:
+      213: -2813529960485067968
+    second: GrayscaleCircuitboard_15
+  - first:
+      213: -3657905973711524357
+    second: GrayscaleCircuitboard_16
+  - first:
+      213: -856766086802764013
+    second: GrayscaleCircuitboard_17
+  - first:
+      213: -7075160493658537596
+    second: GrayscaleCircuitboard_18
+  - first:
+      213: -3453314193217461805
+    second: GrayscaleCircuitboard_19
+  - first:
+      213: 161768506435292240
+    second: GrayscaleCircuitboard_20
+  - first:
+      213: 8707994853709768461
+    second: GrayscaleCircuitboard_21
+  - first:
+      213: 7242905359936203809
+    second: GrayscaleCircuitboard_22
+  - first:
+      213: -4201359463494302594
+    second: GrayscaleCircuitboard_23
+  - first:
+      213: -3499200253826747128
+    second: GrayscaleCircuitboard_24
+  - first:
+      213: -6046456616636798742
+    second: GrayscaleCircuitboard_25
+  - first:
+      213: -4442989397268595986
+    second: GrayscaleCircuitboard_26
+  - first:
+      213: 1201843899004334766
+    second: GrayscaleCircuitboard_27
+  - first:
+      213: 1405319773567552079
+    second: GrayscaleCircuitboard_28
+  - first:
+      213: 1086246818642793117
+    second: GrayscaleCircuitboard_29
+  - first:
+      213: -6683594307626606717
+    second: GrayscaleCircuitboard_30
+  - first:
+      213: 21256610124821960
+    second: GrayscaleCircuitboard_31
+  - first:
+      213: -4852007695154716636
+    second: GrayscaleCircuitboard_32
+  - first:
+      213: 1716711533102038664
+    second: GrayscaleCircuitboard_33
+  - first:
+      213: -5247419762112531291
+    second: GrayscaleCircuitboard_34
+  - first:
+      213: -7494225754189570980
+    second: GrayscaleCircuitboard_35
+  - first:
+      213: -4275542283247354133
+    second: GrayscaleCircuitboard_36
+  - first:
+      213: 8110302210088856067
+    second: GrayscaleCircuitboard_37
+  - first:
+      213: -597716535587388419
+    second: GrayscaleCircuitboard_38
+  - first:
+      213: -2380134387066983311
+    second: GrayscaleCircuitboard_39
+  - first:
+      213: 8041642399677945641
+    second: GrayscaleCircuitboard_40
+  - first:
+      213: 2555361552599556462
+    second: GrayscaleCircuitboard_41
+  - first:
+      213: -6884518692959511235
+    second: GrayscaleCircuitboard_42
+  - first:
+      213: -6550531883790358393
+    second: GrayscaleCircuitboard_43
+  - first:
+      213: 5719222897378896536
+    second: GrayscaleCircuitboard_44
+  - first:
+      213: 6966451654757616858
+    second: GrayscaleCircuitboard_45
+  - first:
+      213: 6867125826055190943
+    second: GrayscaleCircuitboard_46
+  - first:
+      213: 7427354361104306413
+    second: GrayscaleCircuitboard_47
+  - first:
+      213: 7655143637086595137
+    second: GrayscaleCircuitboard_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea35b5a373bfed9d0800000000000000
+      internalID: -2747482508028587090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 184
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87fc2ee91fb09ae0800000000000000
+      internalID: -1544524554097068146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 198
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9db6148e782e75fc0800000000000000
+      internalID: -3506084711539577895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 140
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b8485e3a2cddf00800000000000000
+      internalID: 1143283889608100703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 245
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95acd692dec5ba5d0800000000000000
+      internalID: -3050242148941313447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_5
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 176
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4382984d87ca135c0800000000000000
+      internalID: -4237416139417114572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 176
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79aa29c962c7f8a20800000000000000
+      internalID: 3066806376540056215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 245
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548efa206f87f4300800000000000000
+      internalID: 238542303276296261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 140
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 385de76b36f15ce00800000000000000
+      internalID: 1064291400066979203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 198
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3803f1eeb7139b1b0800000000000000
+      internalID: -5640422649959075709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 184
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c03e7219c6f80f30800000000000000
+      internalID: 4542151567662264520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 191
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a8da02797098330800000000000000
+      internalID: 3713507713413384772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f651aafe3468aada0800000000000000
+      internalID: -5932781932765375121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2dc02225e239b090800000000000000
+      internalID: -8018321701854982867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db0054df85bd6b3e0800000000000000
+      internalID: -2038200606085807939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 146
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0436e5c586554f8d0800000000000000
+      internalID: -2813529960485067968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 35
+        width: 90
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd2527b5e18c3dc0800000000000000
+      internalID: -3657905973711524357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_17
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 146
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f058c88c72c14f0800000000000000
+      internalID: -856766086802764013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_18
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4810b9e440bffcd90800000000000000
+      internalID: -7075160493658537596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_19
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 160
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d16577a90d5310d0800000000000000
+      internalID: -3453314193217461805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_20
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 145
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ccbe97997be3200800000000000000
+      internalID: 161768506435292240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d07ec49be2309d870800000000000000
+      internalID: 8707994853709768461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_22
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c25c0ec08f38460800000000000000
+      internalID: 7242905359936203809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_23
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7442b4e3d5c1b5c0800000000000000
+      internalID: -4201359463494302594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_24
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 137
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80533b0a8e7507fc0800000000000000
+      internalID: -3499200253826747128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae8ad8f1ebba61ca0800000000000000
+      internalID: -6046456616636798742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea7af2eea45752c0800000000000000
+      internalID: -4442989397268595986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_27
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2bf9398aecda010800000000000000
+      internalID: 1201843899004334766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 75
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a835b63e2b08310800000000000000
+      internalID: 1405319773567552079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d921a93f9bf131f00800000000000000
+      internalID: 1086246818642793117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fd71f636a1f33a0800000000000000
+      internalID: -6683594307626606717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 75
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c57e9736c48b4000800000000000000
+      internalID: 21256610124821960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_32
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42067d255b43aacb0800000000000000
+      internalID: -4852007695154716636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_33
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 83
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88efc583b0cf2d710800000000000000
+      internalID: 1716711533102038664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_34
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 106
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4fae3478b6d27b0800000000000000
+      internalID: -5247419762112531291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c52f6f1692ff790800000000000000
+      internalID: -7494225754189570980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beef0e832f83aa4c0800000000000000
+      internalID: -4275542283247354133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a696dc3e49d8070800000000000000
+      internalID: 8110302210088856067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_38
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3cfeb4afb74b7f0800000000000000
+      internalID: -597716535587388419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_39
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c2e2da26018fed0800000000000000
+      internalID: -2380134387066983311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_40
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9271683f727a99f60800000000000000
+      internalID: 8041642399677945641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_41
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 35
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61236f0bc7767320800000000000000
+      internalID: 2555361552599556462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_42
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d9c9879b64570a0800000000000000
+      internalID: -6884518692959511235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7882ec835f5d715a0800000000000000
+      internalID: -6550531883790358393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_44
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89aac856ce2ce5f40800000000000000
+      internalID: 5719222897378896536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_45
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc82c2cedecda060800000000000000
+      internalID: 6966451654757616858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_46
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f993ee12e8eec4f50800000000000000
+      internalID: 6867125826055190943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_47
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0129a8073431760800000000000000
+      internalID: 7427354361104306413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrayscaleCircuitboard_48
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148632944988c3a60800000000000000
+      internalID: 7655143637086595137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GrayscaleCircuitboard_0: -2747482508028587090
+      GrayscaleCircuitboard_1: -1544524554097068146
+      GrayscaleCircuitboard_10: 4542151567662264520
+      GrayscaleCircuitboard_11: 3713507713413384772
+      GrayscaleCircuitboard_12: -5932781932765375121
+      GrayscaleCircuitboard_13: -8018321701854982867
+      GrayscaleCircuitboard_14: -2038200606085807939
+      GrayscaleCircuitboard_15: -2813529960485067968
+      GrayscaleCircuitboard_16: -3657905973711524357
+      GrayscaleCircuitboard_17: -856766086802764013
+      GrayscaleCircuitboard_18: -7075160493658537596
+      GrayscaleCircuitboard_19: -3453314193217461805
+      GrayscaleCircuitboard_2: -3506084711539577895
+      GrayscaleCircuitboard_20: 161768506435292240
+      GrayscaleCircuitboard_21: 8707994853709768461
+      GrayscaleCircuitboard_22: 7242905359936203809
+      GrayscaleCircuitboard_23: -4201359463494302594
+      GrayscaleCircuitboard_24: -3499200253826747128
+      GrayscaleCircuitboard_25: -6046456616636798742
+      GrayscaleCircuitboard_26: -4442989397268595986
+      GrayscaleCircuitboard_27: 1201843899004334766
+      GrayscaleCircuitboard_28: 1405319773567552079
+      GrayscaleCircuitboard_29: 1086246818642793117
+      GrayscaleCircuitboard_3: 1143283889608100703
+      GrayscaleCircuitboard_30: -6683594307626606717
+      GrayscaleCircuitboard_31: 21256610124821960
+      GrayscaleCircuitboard_32: -4852007695154716636
+      GrayscaleCircuitboard_33: 1716711533102038664
+      GrayscaleCircuitboard_34: -5247419762112531291
+      GrayscaleCircuitboard_35: -7494225754189570980
+      GrayscaleCircuitboard_36: -4275542283247354133
+      GrayscaleCircuitboard_37: 8110302210088856067
+      GrayscaleCircuitboard_38: -597716535587388419
+      GrayscaleCircuitboard_39: -2380134387066983311
+      GrayscaleCircuitboard_4: -3050242148941313447
+      GrayscaleCircuitboard_40: 8041642399677945641
+      GrayscaleCircuitboard_41: 2555361552599556462
+      GrayscaleCircuitboard_42: -6884518692959511235
+      GrayscaleCircuitboard_43: -6550531883790358393
+      GrayscaleCircuitboard_44: 5719222897378896536
+      GrayscaleCircuitboard_45: 6966451654757616858
+      GrayscaleCircuitboard_46: 6867125826055190943
+      GrayscaleCircuitboard_47: 7427354361104306413
+      GrayscaleCircuitboard_48: 7655143637086595137
+      GrayscaleCircuitboard_5: -4237416139417114572
+      GrayscaleCircuitboard_6: 3066806376540056215
+      GrayscaleCircuitboard_7: 238542303276296261
+      GrayscaleCircuitboard_8: 1064291400066979203
+      GrayscaleCircuitboard_9: -5640422649959075709
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

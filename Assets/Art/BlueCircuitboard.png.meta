@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: 30027222c3e94c141aeb47859d8c0492
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4835122010249031912
+    second: BlueCircuitboard_0
+  - first:
+      213: 6072753412286803079
+    second: BlueCircuitboard_1
+  - first:
+      213: -6867616495995628796
+    second: BlueCircuitboard_2
+  - first:
+      213: 3230304760210588541
+    second: BlueCircuitboard_3
+  - first:
+      213: 6322309807230442782
+    second: BlueCircuitboard_4
+  - first:
+      213: -6054804948522973808
+    second: BlueCircuitboard_5
+  - first:
+      213: -8486432940957760757
+    second: BlueCircuitboard_6
+  - first:
+      213: 2368352664697132877
+    second: BlueCircuitboard_7
+  - first:
+      213: -4298754137664866231
+    second: BlueCircuitboard_8
+  - first:
+      213: -2312806670515363985
+    second: BlueCircuitboard_9
+  - first:
+      213: -7417756181172703648
+    second: BlueCircuitboard_10
+  - first:
+      213: -1100182551256223003
+    second: BlueCircuitboard_11
+  - first:
+      213: -4037900131974426985
+    second: BlueCircuitboard_12
+  - first:
+      213: -2563564704663096867
+    second: BlueCircuitboard_13
+  - first:
+      213: 479374714317491518
+    second: BlueCircuitboard_14
+  - first:
+      213: 8992432966833845905
+    second: BlueCircuitboard_15
+  - first:
+      213: -430064005378291542
+    second: BlueCircuitboard_16
+  - first:
+      213: -7644011251135914390
+    second: BlueCircuitboard_17
+  - first:
+      213: -2032743587178968737
+    second: BlueCircuitboard_18
+  - first:
+      213: 265029340766916240
+    second: BlueCircuitboard_19
+  - first:
+      213: -3348246030277070898
+    second: BlueCircuitboard_20
+  - first:
+      213: 8459086523881824670
+    second: BlueCircuitboard_21
+  - first:
+      213: -7334173433403632693
+    second: BlueCircuitboard_22
+  - first:
+      213: 3613771383244292050
+    second: BlueCircuitboard_23
+  - first:
+      213: -532045397159193749
+    second: BlueCircuitboard_24
+  - first:
+      213: 894076597669243018
+    second: BlueCircuitboard_25
+  - first:
+      213: 7686013728094070460
+    second: BlueCircuitboard_26
+  - first:
+      213: 1806131154595182804
+    second: BlueCircuitboard_27
+  - first:
+      213: -7054585125898829185
+    second: BlueCircuitboard_28
+  - first:
+      213: -7698172523913570511
+    second: BlueCircuitboard_29
+  - first:
+      213: -6132645402104352327
+    second: BlueCircuitboard_30
+  - first:
+      213: 7966595691629578735
+    second: BlueCircuitboard_31
+  - first:
+      213: 1748275832334386458
+    second: BlueCircuitboard_32
+  - first:
+      213: 6143544379770259809
+    second: BlueCircuitboard_33
+  - first:
+      213: 4845891418991285538
+    second: BlueCircuitboard_34
+  - first:
+      213: -672903956845145004
+    second: BlueCircuitboard_35
+  - first:
+      213: 4786277775191642883
+    second: BlueCircuitboard_36
+  - first:
+      213: 7527242101730608893
+    second: BlueCircuitboard_37
+  - first:
+      213: 3912057357961014468
+    second: BlueCircuitboard_38
+  - first:
+      213: 1512063813733963769
+    second: BlueCircuitboard_39
+  - first:
+      213: 6948239877356461576
+    second: BlueCircuitboard_40
+  - first:
+      213: -8198431381995110303
+    second: BlueCircuitboard_41
+  - first:
+      213: -8183242043355413993
+    second: BlueCircuitboard_42
+  - first:
+      213: -8737991480286690485
+    second: BlueCircuitboard_43
+  - first:
+      213: 1058186477388554000
+    second: BlueCircuitboard_44
+  - first:
+      213: -8813483565244165632
+    second: BlueCircuitboard_45
+  - first:
+      213: 4517238616287129787
+    second: BlueCircuitboard_46
+  - first:
+      213: 792209544798984292
+    second: BlueCircuitboard_47
+  - first:
+      213: -7174676171362854312
+    second: BlueCircuitboard_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BlueCircuitboard_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f0f65362236ecb0800000000000000
+      internalID: -4835122010249031912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 184
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c65ebbd01c64450800000000000000
+      internalID: 6072753412286803079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_2
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 198
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403519ede2351b0a0800000000000000
+      internalID: -6867616495995628796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 140
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d730b94801954dc20800000000000000
+      internalID: 3230304760210588541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_4
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 245
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d50fbc54b5db750800000000000000
+      internalID: 6322309807230442782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_5
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 176
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095c203aaf209fba0800000000000000
+      internalID: -6054804948522973808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 176
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b030a0804322a3a80800000000000000
+      internalID: -8486432940957760757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 245
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d475f1253341ed020800000000000000
+      internalID: 2368352664697132877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_8
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 140
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948beb733e1c754c0800000000000000
+      internalID: -4298754137664866231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_9
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 198
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f17c1469247efd0800000000000000
+      internalID: -2312806670515363985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 184
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e2ebedd06de0990800000000000000
+      internalID: -7417756181172703648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 191
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e23a447ccd5bb0f0800000000000000
+      internalID: -1100182551256223003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e4923493f76f7c0800000000000000
+      internalID: -4037900131974426985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 145
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1b3d3cb736c6cd0800000000000000
+      internalID: -2563564704663096867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_14
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3dc23943c417a600800000000000000
+      internalID: 479374714317491518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 146
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 196b4aea32a8bcc70800000000000000
+      internalID: 8992432966833845905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_16
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 35
+        width: 90
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa8ceb0d01b180af0800000000000000
+      internalID: -430064005378291542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_17
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 146
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6e54fc44440be590800000000000000
+      internalID: -7644011251135914390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_18
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 183
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f598eb63a7e3ac3e0800000000000000
+      internalID: -2032743587178968737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_19
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 160
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ec77ff7c29da300800000000000000
+      internalID: 265029340766916240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_20
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 145
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecf29b8a9f3a881d0800000000000000
+      internalID: -3348246030277070898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 137
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9125441066b46570800000000000000
+      internalID: 8459086523881824670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_22
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc39ed4de18c73a90800000000000000
+      internalID: -7334173433403632693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_23
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 148
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df7fbd2de1b62230800000000000000
+      internalID: 3613771383244292050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_24
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 137
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63d1f9b78bcd98f0800000000000000
+      internalID: -532045397159193749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88a016bde5686c00800000000000000
+      internalID: 894076597669243018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 82
+        width: 63
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6a2d173c43aaa60800000000000000
+      internalID: 7686013728094070460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_27
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8796f37baa01910800000000000000
+      internalID: 1806131154595182804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_28
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 75
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72cb0d6434191e90800000000000000
+      internalID: -7054585125898829185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_29
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137957c40e89a2590800000000000000
+      internalID: -7698172523913570511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_30
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 42
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b1332abf7774eaa0800000000000000
+      internalID: -6132645402104352327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_31
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 75
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe90dbc92980f8e60800000000000000
+      internalID: 7966595691629578735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_32
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 115
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1501b35b9f134810800000000000000
+      internalID: 1748275832334386458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_33
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 83
+        width: 63
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169cd024011424550800000000000000
+      internalID: 6143544379770259809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_34
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 106
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225d6192290104340800000000000000
+      internalID: 4845891418991285538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 85
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4545a4c9a6d59a6f0800000000000000
+      internalID: -672903956845145004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30315aa17464c6240800000000000000
+      internalID: 4786277775191642883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_37
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6840c7fc2267860800000000000000
+      internalID: 7527242101730608893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_38
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc283aa07b6a4630800000000000000
+      internalID: 3912057357961014468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_39
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 0
+        width: 48
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f7d55ff60eebf410800000000000000
+      internalID: 1512063813733963769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_40
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e1908ea5b1d6060800000000000000
+      internalID: 6948239877356461576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_41
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 35
+        width: 85
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16044c06812593e80800000000000000
+      internalID: -8198431381995110303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_42
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 0
+        width: 67
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71242ced7b84f6e80800000000000000
+      internalID: -8183242043355413993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b434f176b0b6cb680800000000000000
+      internalID: -8737991480286690485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_44
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01fddd2aefe6fae00800000000000000
+      internalID: 1058186477388554000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_45
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002d0eba46730b580800000000000000
+      internalID: -8813483565244165632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_46
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 10
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb0b871969470be30800000000000000
+      internalID: 4517238616287129787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_47
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 0
+        width: 141
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468da69326e7efa00800000000000000
+      internalID: 792209544798984292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BlueCircuitboard_48
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 58
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a1573090e6e6c90800000000000000
+      internalID: -7174676171362854312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BlueCircuitboard_0: -4835122010249031912
+      BlueCircuitboard_1: 6072753412286803079
+      BlueCircuitboard_10: -7417756181172703648
+      BlueCircuitboard_11: -1100182551256223003
+      BlueCircuitboard_12: -4037900131974426985
+      BlueCircuitboard_13: -2563564704663096867
+      BlueCircuitboard_14: 479374714317491518
+      BlueCircuitboard_15: 8992432966833845905
+      BlueCircuitboard_16: -430064005378291542
+      BlueCircuitboard_17: -7644011251135914390
+      BlueCircuitboard_18: -2032743587178968737
+      BlueCircuitboard_19: 265029340766916240
+      BlueCircuitboard_2: -6867616495995628796
+      BlueCircuitboard_20: -3348246030277070898
+      BlueCircuitboard_21: 8459086523881824670
+      BlueCircuitboard_22: -7334173433403632693
+      BlueCircuitboard_23: 3613771383244292050
+      BlueCircuitboard_24: -532045397159193749
+      BlueCircuitboard_25: 894076597669243018
+      BlueCircuitboard_26: 7686013728094070460
+      BlueCircuitboard_27: 1806131154595182804
+      BlueCircuitboard_28: -7054585125898829185
+      BlueCircuitboard_29: -7698172523913570511
+      BlueCircuitboard_3: 3230304760210588541
+      BlueCircuitboard_30: -6132645402104352327
+      BlueCircuitboard_31: 7966595691629578735
+      BlueCircuitboard_32: 1748275832334386458
+      BlueCircuitboard_33: 6143544379770259809
+      BlueCircuitboard_34: 4845891418991285538
+      BlueCircuitboard_35: -672903956845145004
+      BlueCircuitboard_36: 4786277775191642883
+      BlueCircuitboard_37: 7527242101730608893
+      BlueCircuitboard_38: 3912057357961014468
+      BlueCircuitboard_39: 1512063813733963769
+      BlueCircuitboard_4: 6322309807230442782
+      BlueCircuitboard_40: 6948239877356461576
+      BlueCircuitboard_41: -8198431381995110303
+      BlueCircuitboard_42: -8183242043355413993
+      BlueCircuitboard_43: -8737991480286690485
+      BlueCircuitboard_44: 1058186477388554000
+      BlueCircuitboard_45: -8813483565244165632
+      BlueCircuitboard_46: 4517238616287129787
+      BlueCircuitboard_47: 792209544798984292
+      BlueCircuitboard_48: -7174676171362854312
+      BlueCircuitboard_5: -6054804948522973808
+      BlueCircuitboard_6: -8486432940957760757
+      BlueCircuitboard_7: 2368352664697132877
+      BlueCircuitboard_8: -4298754137664866231
+      BlueCircuitboard_9: -2312806670515363985
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
