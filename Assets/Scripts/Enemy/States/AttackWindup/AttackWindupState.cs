@@ -9,6 +9,12 @@ namespace EnemyStates
         [SerializeField] private float _lookAtTargetRotationSpeed = 10f;
 
         private float _timer;
+        private Transform _target;
+
+        public void SetLockOnTarget(Transform target)
+        {
+            _target = target;
+        }
         
         private protected override void OnEnter()
         {
@@ -27,16 +33,19 @@ namespace EnemyStates
 
         private protected override void OnFixedUpdate()
         {
-            if (_context.CurrentTarget == null)
+            if (_target == null)
                 return;
             
-            _context.RotateToLookAtPosition(_context.CurrentTarget.position, _lookAtTargetRotationSpeed);
+            _context.RotateToLookAtPosition(_target.position, _lookAtTargetRotationSpeed);
         }
 
         private protected override State<Enemy> GetTransition()
         {
             if (_timer >= _duration)
+            {
+                _context.AttackState.SetLockOnTarget(_target);
                 return _context.AttackState;
+            }
 
             return null;
         }

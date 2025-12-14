@@ -599,7 +599,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92fc379fcbb099b458f260fb9ea8d8e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _roomCount: 5
+  _roomCount: 3
+  _roomMinDistance: 3
+  _roomMaxDistance: 6
   _roomPrefabs:
   - {fileID: 1742212724671679669, guid: 67e3150783d15e04cb8ab1f6ec45a2c7, type: 3}
 --- !u!4 &1928197459 stripped

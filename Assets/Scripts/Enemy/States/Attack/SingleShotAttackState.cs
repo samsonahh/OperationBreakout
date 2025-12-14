@@ -41,7 +41,12 @@ namespace EnemyStates
         private protected override State<Enemy> GetTransition()
         {
             if (_currentShootCount >= _shootCount && _currentShootCooldownTimer >= _shootCooldown)
-                return _context.PatrolState;
+            {
+                if(_target == null)
+                    return _context.PatrolState;
+                _context.ChaseState.SetTarget(_target);
+                return _context.ChaseState;
+            }
             
             return null;
         }

@@ -19,29 +19,22 @@ namespace EnemyStates
         private float _timer;
 
         private Vector3 _targetLocation;
-        private List<Vector3> _path;
-        private Vector3 _currentMoveDirection;
         
         private protected override void OnEnter()
         {
             _duration = UnityEngine.Random.Range(_durationInterval.x, _durationInterval.y);
             _timer = 0f;
-
-            Ticker.Instance.OnTick += Ticker_OnTick;
-            _context.Seeker.pathCallback += OnPathFound;
-
-            _targetLocation = _context.GetRandomWalkableTarget(_radius);
-            _context.AIPath.destination =  _targetLocation;
             
-            RequestNewPath();
+            _targetLocation = _context.GetRandomWalkableTarget(_radius);
+            
+            _context.AIPath.canMove = true;
+            _context.AIPath.maxSpeed = _moveSpeed;
+            _context.AIPath.destination =  _targetLocation;
         }
 
         private protected override void OnExit()
         {
-            if(Ticker.Instance != null)
-                Ticker.Instance.OnTick -= Ticker_OnTick;
-            
-            _context.Seeker.pathCallback -= OnPathFound;
+            _context.AIPath.canMove = false;
         }
 
         private protected override void OnUpdate()
@@ -51,17 +44,17 @@ namespace EnemyStates
 
         private protected override void OnFixedUpdate()
         {
-            if (_path.Count <= 1)
-                return;
-            
-            _context.RigidBody.MovePosition(_context.transform.position + _currentMoveDirection * (_moveSpeed * Time.fixedDeltaTime));
-            _context.RotateToLookAtPosition(_context.transform.position + _currentMoveDirection, _rotationSpeed);
+            if(_context.AIPath.desiredVelocity != Vector3.zero)
+                _context.RotateToLookAtPosition(_context.transform.position + _context.AIPath.desiredVelocity, _rotationSpeed);
         }
 
         private protected override State<Enemy> GetTransition()
         {
             if (_context.CurrentTarget != null)
-                return _context.AttackWindupState;
+            {
+                _context.ChaseState.SetTarget(_context.CurrentTarget);
+                return _context.ChaseState;
+            }
             
             if (_timer >= _duration)
                 return _context.IdleState;
@@ -70,30 +63,6 @@ namespace EnemyStates
                 return _context.IdleState;
             
             return null;
-        }
-
-        private void Ticker_OnTick()
-        {
-            RequestNewPath();
-        }
-
-        private void RequestNewPath()
-        {
-            _path = new();
-            _context.AIPath.SearchPath();
-        }
-
-        private void OnPathFound(Path path)
-        {
-            _path = path.vectorPath;
-            if (path.vectorPath.Count == 0)
-            {
-                _currentMoveDirection = Vector3.zero;
-            }
-            else
-            {
-                _currentMoveDirection = (_path[1] - _context.transform.position).normalized;
-            }
         }
     }
 }

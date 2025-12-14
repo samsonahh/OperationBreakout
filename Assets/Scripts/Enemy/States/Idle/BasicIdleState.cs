@@ -34,7 +34,10 @@ namespace EnemyStates
         private protected override State<Enemy> GetTransition()
         {
             if (_context.CurrentTarget != null)
-                return _context.AttackWindupState;
+            {
+                _context.ChaseState.SetTarget(_context.CurrentTarget);
+                return _context.ChaseState;
+            }
             
             if (_timer >= _duration)
                 return _context.PatrolState;

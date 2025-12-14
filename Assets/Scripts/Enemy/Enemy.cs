@@ -28,6 +28,10 @@ public class Enemy : MonoBehaviour, ITeam
     [field: SerializeReference, SubclassSelector]
     public PatrolState PatrolState { get; private set; }
     
+    [field: TabGroup("States", "Chase")]
+    [field: SerializeField]
+    public ChaseState ChaseState { get; private set; }
+    
     [field: TabGroup("States", "Pre Attack")]
     [field: SerializeField]
     public AttackWindupState AttackWindupState { get; private set; }
@@ -55,7 +59,8 @@ public class Enemy : MonoBehaviour, ITeam
     {
         _stateMachine?.Destroy();
         
-        Ticker.Instance.OnTick -= Ticker_OnTick;
+        if(Ticker.Instance != null)
+            Ticker.Instance.OnTick -= Ticker_OnTick;
     }
 
     private void Update()
@@ -96,6 +101,7 @@ public class Enemy : MonoBehaviour, ITeam
         
         IdleState.Init(_stateMachine, this);
         PatrolState.Init(_stateMachine, this);
+        ChaseState.Init(_stateMachine, this);
         AttackWindupState.Init(_stateMachine, this);
         AttackState.Init(_stateMachine, this);
         
