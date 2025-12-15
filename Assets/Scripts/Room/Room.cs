@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Pathfinding;
 using UnityEngine;
 
@@ -6,49 +7,104 @@ public class Room : MonoBehaviour
     [field: SerializeField] public Transform EntranceTransform { get; private set; }
     [field: SerializeField] public Transform ExitTransform { get; private set; }
     [field: SerializeField] public BoxCollider2D RoomRectSpace { get; private set; }
-    [SerializeField] private float _corridorWallThickness = 1f;
-    [SerializeField] private float _corridorWidth = 2f;
+    [SerializeField] private int _corridorWallThickness = 1;
+    [SerializeField] private int _corridorWidth = 1;
     [SerializeField] private GameObject _corridorWallPrefab;
     public bool IsEntranceUsed { get; private set; }
     public bool IsExitUsed { get; private set; }
     public Room PreviousRoom { get; private set; }
+    
+    private GridGraph _graph;
+    
+    [Header("Spawn")]
+    [SerializeField] private GameObject _winTriggerPrefab;
+    [SerializeField] private Enemy _enemyPrefab;
+    [SerializeField] private Dr _doctorPrefab;
+    [SerializeField] private int _enemyCount = 3;
+    [SerializeField] private Transform _spawnPointsTransform;
+    private HashSet<int> _usedSpawnPoints = new();
+    private List<Enemy> _spawnedEnemies = new();
 
     private void Start()
     {
         GenerateNavMesh();
+        SpawnEnemies();
     }
 
     public void GenerateNavMesh()
     {
         AstarData data = AstarPath.active.data;
         
-        GridGraph newGraph = data.AddGraph(typeof(GridGraph)) as GridGraph;
-        if (newGraph == null)
+        _graph = data.AddGraph(typeof(GridGraph)) as GridGraph;
+        if (_graph == null)
         {
             Debug.LogError("Failed to make a new graph");
             return;
         }
         
-        newGraph.is2D = true;
+        _graph.is2D = true;
         
-        newGraph.collision.use2D = true;
-        newGraph.collision.diameter = 0.5f;
-        newGraph.collision.mask = LayerMask.GetMask("Environment");
+        _graph.collision.use2D = true;
+        _graph.collision.diameter = 0.5f;
+        _graph.collision.mask = LayerMask.GetMask("Environment");
 
-        newGraph.center = transform.position;
-        newGraph.SetDimensions(Mathf.CeilToInt(RoomRectSpace.size.x), Mathf.CeilToInt(RoomRectSpace.size.y), 1);
+        _graph.center = transform.position;
+        _graph.SetDimensions(Mathf.CeilToInt(RoomRectSpace.size.x), Mathf.CeilToInt(RoomRectSpace.size.y), 1);
         
-        AstarPath.active.Scan(newGraph);
+        AstarPath.active.Scan(_graph);
     }
 
+    public void SpawnEnemies()
+    {
+        _usedSpawnPoints.Clear();
+        
+        int spawnCount = Mathf.Min(_enemyCount, _spawnPointsTransform.childCount);
+
+        for (int i = 0; i < spawnCount; i++)
+        {
+            Vector3 spawnPos = GetRandomSpawnPoint();
+            Enemy spawnedEnemy = Instantiate(_enemyPrefab, spawnPos, Quaternion.identity);
+            _spawnedEnemies.Add(spawnedEnemy);
+        }
+    }
+
+    public void ClearEnemies()
+    {
+        for (int i = 0; i < _spawnedEnemies.Count; i++)
+        {
+            if (_spawnedEnemies[i] != null)
+            {
+                Destroy(_spawnedEnemies[i].gameObject);
+            }
+        }
+        _spawnedEnemies.Clear();
+    }
+
+    public void SpawnDoctor()
+    {
+        Vector3 spawnPosition = GetRandomSpawnPoint();
+        Instantiate(_doctorPrefab, spawnPosition, Quaternion.identity);
+    }
+    
     public void MarkEntranceUsed()
     {
         IsEntranceUsed = true;
+        EntranceTransform.gameObject.SetActive(false);
     }
 
     public void MarkExitUsed()
     {
         IsExitUsed = true;
+        ExitTransform.gameObject.SetActive(false);
+    }
+
+    /// <summary>
+    /// Creates the win conditions at entrance
+    /// </summary>
+    public void CreateFinishExitAtEntrance()
+    {
+        MarkEntranceUsed();
+        Instantiate(_winTriggerPrefab, EntranceTransform.position, Quaternion.identity);
     }
 
     public void SetPreviousRoom(Room previousRoom)
@@ -124,12 +180,9 @@ public class Room : MonoBehaviour
         
         // 2. Wall Thickness (used for wall scale and position offset)
         float halfWallThickness = _corridorWallThickness / 2f;
-
-        // Wall Height (as requested)
-        const float wallHeight = 2f; 
         
         // Wall Size: The length matches the corridor length. Thickness is the Y-scale.
-        Vector3 wallScale = new Vector3(length, _corridorWallThickness, 1f); 
+        Vector3 wallScale = new Vector3(length - 1f, _corridorWallThickness, 1f); 
 
         // --- Spawn Top Wall ---
         
@@ -139,7 +192,8 @@ public class Room : MonoBehaviour
         Vector3 topWallPosition = center + perpendicular * topOffset;
         
         GameObject topWall = Instantiate(_corridorWallPrefab, topWallPosition, Quaternion.identity, transform);
-        topWall.transform.localScale = wallScale;
+        topWall.GetComponent<SpriteRenderer>().size = wallScale;
+        topWall.GetComponent<BoxCollider2D>().size = wallScale;
         topWall.layer = LayerMask.NameToLayer("Environment");
         topWall.name = "CorridorWall_Top";
         
@@ -150,8 +204,30 @@ public class Room : MonoBehaviour
         Vector3 bottomWallPosition = center - perpendicular * bottomOffset;
         
         GameObject bottomWall = Instantiate(_corridorWallPrefab, bottomWallPosition, Quaternion.identity, transform);
-        bottomWall.transform.localScale = wallScale;
+        bottomWall.GetComponent<SpriteRenderer>().size = wallScale;
+        bottomWall.GetComponent<BoxCollider2D>().size = wallScale;
         bottomWall.layer = LayerMask.NameToLayer("Environment");
         bottomWall.name = "CorridorWall_Bottom";
+    }
+
+    private Vector3 GetRandomSpawnPoint()
+    {
+        int spawnPointCount = _spawnPointsTransform.childCount;
+
+        if (_usedSpawnPoints.Count >= spawnPointCount)
+        {
+            Debug.LogWarning("All spawn points have been used.");
+            return _spawnPointsTransform.GetChild(0).position;
+        }
+
+        int index;
+        do
+        {
+            index = Random.Range(0, spawnPointCount);
+        }
+        while (_usedSpawnPoints.Contains(index));
+
+        _usedSpawnPoints.Add(index);
+        return _spawnPointsTransform.GetChild(index).position;
     }
 }

@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Dr : MonoBehaviour
 {
+    private MapGenerator _mapGenerator;
+    
     private Collider2D _collider;
     
     private bool _isPickedUp = false;
@@ -10,6 +12,9 @@ public class Dr : MonoBehaviour
 
     private void Awake()
     {
+        _mapGenerator = FindObjectOfType<MapGenerator>();
+        if(_mapGenerator == null) Debug.LogError("Map generator not found");
+        
         _collider = GetComponent<Collider2D>();
     }
 
@@ -32,5 +37,7 @@ public class Dr : MonoBehaviour
         _isPickedUp = true;
         _target = other.transform;
         _collider.enabled = false;
+        
+        _mapGenerator.OpenWinCondition();
     }
 }

@@ -8,9 +8,10 @@ public class LevelManager : MonoBehaviour
 
     public float CurrentTimer { get; private set; } = 0f;
     public bool IsTimerDepleted { get; private set; }
-    public Action<float> OnTimerAdded = delegate { };
-    public Action<float> OnTimerSubtracted = delegate { };
-    public Action OnTimerDepleted = delegate { };
+    public event Action<float> OnTimerAdded = delegate { };
+    public event Action<float> OnTimerSubtracted = delegate { };
+    public event Action OnTimerDepleted = delegate { };
+    public event Action OnWin = delegate { };
 
     private void Start()
     {
@@ -53,5 +54,11 @@ public class LevelManager : MonoBehaviour
     {
         CountdownTimer(-additionAmount);
         OnTimerAdded.Invoke(additionAmount);
+    }
+
+    public void WinGame()
+    {
+        GameManager.Instance.ChangeGameState(GameState.Results);
+        OnWin.Invoke();
     }
 }

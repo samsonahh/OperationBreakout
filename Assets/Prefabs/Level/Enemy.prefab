@@ -224,7 +224,7 @@ MonoBehaviour:
     _loseInterestDistance: 10
     _animationClip: {fileID: 7400000, guid: a76257b30e1237e4f827006f6685dbb8, type: 2}
   <AttackWindupState>k__BackingField:
-    _duration: 0.25
+    _duration: 0.5
     _lookAtTargetRotationSpeed: 10
   <AttackState>k__BackingField:
     rid: 3678741941827403855
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c39c48cb549926f4392541af36f7beb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <MaxHealth>k__BackingField: 10000
+  <MaxHealth>k__BackingField: 7
   <CurrentHealth>k__BackingField: 0
   _useHealth: 1
   OnDamageTaken:
@@ -457,7 +457,7 @@ MonoBehaviour:
   rotationSpeed: 360
   slowdownDistance: 0.6
   pickNextWaypointDist: 0.25
-  endReachedDistance: 0.2
+  endReachedDistance: 0.1
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
@@ -511,7 +511,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 189bbc288b40c5e4bbc9259cd1bc98c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _enemy: {fileID: 7532257157558539328}
   _health: {fileID: 4260232174679312381}
+  _timeToAdd: 10
   _scoreToAdd: 5000
 --- !u!1 &8197323219212180529
 GameObject:

@@ -24,6 +24,18 @@ public class Bullet : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (_shootDirection == Vector2.zero)
+        {
+            Explode();
+            return;
+        }
+
+        if (_shootSpeed == 0)
+        {
+            Explode();
+            return;
+        }
+        
         _rigidBody.MovePosition(_rigidBody.position + _shootDirection * (_shootSpeed * Time.fixedDeltaTime));
     }
 
@@ -38,6 +50,12 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Environment"))
+        {
+            Explode();
+            return;
+        }
+        
         HandleOnHitHealth(other);
     }
 

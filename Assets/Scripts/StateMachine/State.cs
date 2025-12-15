@@ -6,7 +6,7 @@ public abstract class State<TContext> where TContext : MonoBehaviour
     private protected StateMachine<TContext> _stateMachine;
     private protected TContext _context;
 
-    private static readonly bool EnableDebug = true; // Set to true to enable debug logs for state transitions
+    private static readonly bool EnableDebug = false; // Set to true to enable debug logs for state transitions
 
     public virtual void Init(StateMachine<TContext> stateMachine, TContext context)
     {

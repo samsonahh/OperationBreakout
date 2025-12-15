@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour, ITeam
 
     public Team Team { get; set; } = Team.Enemy;
     
-    private StateMachine<Enemy> _stateMachine;
+    public StateMachine<Enemy> StateMachine { get; private set; }
     
     [field: TabGroup("States", "Idle")]
     [field: SerializeReference, SubclassSelector]
@@ -63,7 +63,7 @@ public class Enemy : MonoBehaviour, ITeam
 
     private void OnDestroy()
     {
-        _stateMachine?.Destroy();
+        StateMachine?.Destroy();
         
         if(Ticker.Instance != null)
             Ticker.Instance.OnTick -= Ticker_OnTick;
@@ -71,12 +71,12 @@ public class Enemy : MonoBehaviour, ITeam
 
     private void Update()
     {
-        _stateMachine?.Update();
+        StateMachine?.Update();
     }
 
     private void FixedUpdate()
     {
-        _stateMachine?.FixedUpdate();
+        StateMachine?.FixedUpdate();
     }
 
     private void OnDrawGizmosSelected()
@@ -103,16 +103,16 @@ public class Enemy : MonoBehaviour, ITeam
     
     private void SetupStateMachine()
     {
-        _stateMachine = new StateMachine<Enemy>(this);
+        StateMachine = new StateMachine<Enemy>(this);
         
-        IdleState.Init(_stateMachine, this);
-        PatrolState.Init(_stateMachine, this);
-        ChaseState.Init(_stateMachine, this);
-        AttackWindupState.Init(_stateMachine, this);
-        AttackState.Init(_stateMachine, this);
-        DeathState.Init(_stateMachine, this);
+        IdleState.Init(StateMachine, this);
+        PatrolState.Init(StateMachine, this);
+        ChaseState.Init(StateMachine, this);
+        AttackWindupState.Init(StateMachine, this);
+        AttackState.Init(StateMachine, this);
+        DeathState.Init(StateMachine, this);
         
-        _stateMachine.ChangeState(IdleState, true);
+        StateMachine.ChangeState(IdleState, true);
     }
 
     private void Ticker_OnTick()
@@ -241,6 +241,6 @@ public class Enemy : MonoBehaviour, ITeam
     
     public void Kill()
     {
-        _stateMachine.ChangeState(DeathState);
+        StateMachine.ChangeState(DeathState);
     }
 }

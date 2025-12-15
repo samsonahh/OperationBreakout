@@ -5,8 +5,8 @@ using UnityEngine;
 public class MapGenerator : MonoBehaviour
 {
     [SerializeField] private int _roomCount = 5;
-    [SerializeField] private float _roomMinDistance = 3;
-    [SerializeField] private float _roomMaxDistance = 6;
+    [SerializeField] private int _roomMinDistance = 3;
+    [SerializeField] private int _roomMaxDistance = 6;
     [SerializeField] private List<Room> _roomPrefabs = new();
     
     private List<Room> _spawnedRooms = new();
@@ -18,19 +18,32 @@ public class MapGenerator : MonoBehaviour
 
         for (int i = 1; i < _roomCount; i++)
         {
-            if (TrySpawnAndConnectNewRoom())
+            if (TrySpawnAndConnectNewRoom(out Room room))
             {
-                Debug.Log($"Successfully placed and connected room {i}.");
+                if (i == _roomCount - 1)
+                {
+                    room.SpawnDoctor();
+                }
             }
             else
-            {
-                Debug.LogError($"Failed to place a room after {i} attempts.");
                 break; // Stop if placement fails too many times
-            }
         }
         
         // Final scan
         AstarPath.active.Scan();
+    }
+
+    public void SpawnRoomEnemies()
+    {
+        foreach (Room room in _spawnedRooms)
+        {
+            room.SpawnEnemies();
+        }
+    }
+
+    public void OpenWinCondition()
+    {
+        _spawnedRooms[0].CreateFinishExitAtEntrance();
     }
     
     private Room SpawnRoom(Vector3 position)
@@ -43,8 +56,9 @@ public class MapGenerator : MonoBehaviour
         return newRoom;
     }
     
-    private bool TrySpawnAndConnectNewRoom()
+    private bool TrySpawnAndConnectNewRoom(out Room spawnedRoom)
     {
+        spawnedRoom = null;
         const int maxAttempts = 10;
         for (int attempt = 0; attempt < maxAttempts; attempt++)
         {
@@ -56,18 +70,18 @@ public class MapGenerator : MonoBehaviour
             if (connectionExit == null) continue;
 
             // 3. Spawn the new room
-            Room newRoom = SpawnRoom(Vector3.zero);
+            spawnedRoom = SpawnRoom(Vector3.zero);
 
             // 4. Randomly pick an **Entrance** from the new room to connect
-            Transform connectionEntrance = newRoom.EntranceTransform; // Assumes implementation in Room.cs
+            Transform connectionEntrance = spawnedRoom.EntranceTransform; // Assumes implementation in Room.cs
             if (connectionEntrance == null)
             {
-                Destroy(newRoom.gameObject);
+                Destroy(spawnedRoom.gameObject);
                 continue;
             }
 
             // 5. Determine the required spacing
-            float randomSpacing = UnityEngine.Random.Range(_roomMinDistance, _roomMaxDistance);
+            int randomSpacing = UnityEngine.Random.Range(_roomMinDistance, _roomMaxDistance);
             
             // 6. Calculate the new room's desired position.
 
@@ -76,7 +90,7 @@ public class MapGenerator : MonoBehaviour
             Vector3 entranceOffsetFromCenter = connectionEntrance.localPosition; 
             
             // B. Calculate the width required for the offset plus spacing.
-            float newRoomHalfWidth = newRoom.RoomRectSpace.size.x / 2f;
+            int newRoomHalfWidth = (int)(spawnedRoom.RoomRectSpace.size.x / 2f);
             
             // C. Calculate the **Target Center X Position**
             
@@ -97,29 +111,29 @@ public class MapGenerator : MonoBehaviour
             
             // 7. Set the final new room position
             Vector3 newRoomPosition = new Vector3(targetX, targetY, 0f); // Set Z to 0 for 2D
-            newRoom.transform.position = newRoomPosition;
+            spawnedRoom.transform.position = newRoomPosition;
 
             // --- FINAL CHECK AND CLEANUP ---
             
             // 8. **Overlap Check (Crucial!):**
-            if (!IsOverlapping(newRoom)) 
+            if (!IsOverlapping(spawnedRoom)) 
             {
-                _spawnedRooms.Add(newRoom);
+                _spawnedRooms.Add(spawnedRoom);
     
                 // Set the connection data
-                newRoom.SetPreviousRoom(existingRoom); // Use the existingRoom we connected to
+                spawnedRoom.SetPreviousRoom(existingRoom); // Use the existingRoom we connected to
     
                 // Perform the connection (Nav Mesh and Walls)
-                newRoom.ConnectToPreviousRoom(); 
+                spawnedRoom.ConnectToPreviousRoom(); 
 
                 existingRoom.MarkExitUsed(); 
-                newRoom.MarkEntranceUsed();
+                spawnedRoom.MarkEntranceUsed();
                 return true; // Success!
             }
             else
             {
                 // If overlapping, destroy the room and try again
-                Destroy(newRoom.gameObject);
+                Destroy(spawnedRoom.gameObject);
             }
         }
 
